@@ -7,6 +7,7 @@
  * Author: Linus Metzler
  * Author URI: http://linusmetzler.me
  * License: GNU General Public License v2 or later
+ * GitHub Plugin URI: limenet/x-theme-translation-german
  */
 
 
