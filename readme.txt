@@ -14,6 +14,8 @@ A non-official translation for the X theme into German
 Themeco produced this awesome theme called X (see [theme.co/x](https://theme.co/x/)). Unfortunately, there are no translations available and since I'm using it on a few sites in German, I decided to publish my *non-official* translation here. Feel free to use it.
 If you find any mistakes, let me know ([linusmetzler.me](http://linusmetzler.me))!
 
+*Please note:* At the moment, only strings I actually need are translated. I'd be happy to see a pull request!
+
 == Installation ==
 
 1. Upload `x-theme-translation-german` to the `/wp-content/plugins/` directory
