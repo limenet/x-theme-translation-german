@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: X\n"
-"POT-Creation-Date: 2015-05-29 20:30+0100\n"
-"PO-Revision-Date: 2015-05-29 20:31+0100\n"
+"POT-Creation-Date: 2015-05-30 14:22+0100\n"
+"PO-Revision-Date: 2015-05-30 14:24+0100\n"
 "Last-Translator: Linus Metzler <linus.metzler@gmail.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -52,7 +52,7 @@ msgstr "Verschoben: %s"
 
 #: bbpress/form-reply-move.php:42 bbpress/form-topic-split.php:42
 msgid "Use an existing topic in this forum:"
-msgstr ""
+msgstr "Einen vorhandenen Beitrag in diesem Forum verwenden:"
 
 #: bbpress/form-reply-move.php:59 bbpress/form-reply.php:133
 #: bbpress/form-topic-merge.php:79 bbpress/form-topic-split.php:82
@@ -65,11 +65,11 @@ msgstr "Senden"
 
 #: bbpress/form-reply-move.php:72
 msgid "You do not have the permissions to edit this reply!"
-msgstr ""
+msgstr "Sie sind nicht berechtigt, diese Antwort zu bearbeiten!"
 
 #: bbpress/form-reply-move.php:72
 msgid "You cannot edit this reply."
-msgstr ""
+msgstr "Sie können diese Antwort nicht bearbeiten."
 
 #: bbpress/form-reply.php:29
 #, php-format
@@ -81,16 +81,21 @@ msgid ""
 "This topic is marked as closed to new replies, however your posting "
 "capabilities still allow you to do so."
 msgstr ""
+"Dieser Beitrag ist für neue Antworten geschlossen, mit Ihren Benutzerrechten "
+"dürfen Sie dennoch weiterhin neue Themen anlegen."
 
 #: bbpress/form-reply.php:44 bbpress/form-topic.php:53
 msgid "Your account has the ability to post unrestricted HTML content."
 msgstr ""
+"Mit Ihrem Konto dürfen Sie uneingeschränkt HTML Inhalte veröffentlichen."
 
 #: bbpress/form-reply.php:64 bbpress/form-topic.php:82
 msgid ""
 "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
 "and attributes:"
 msgstr ""
+"Sie können folgende <abbr title=\"Hyper Text Markup Language\">HTML</abbr>-"
+"Tags (Schlagwörter) verwenden: %s"
 
 #: bbpress/form-reply.php:75
 msgid "Tags:"
@@ -99,6 +104,7 @@ msgstr "Schlagwörter:"
 #: bbpress/form-reply.php:93 bbpress/form-topic.php:156
 msgid "Notify the author of follow-up replies via email"
 msgstr ""
+"Den Autor/ die Autorin via E-Mail über eingehende Antworten informieren."
 
 #: bbpress/form-reply.php:97 bbpress/form-topic.php:160
 msgid "Notify me of follow-up replies via email"
@@ -128,7 +134,7 @@ msgstr ""
 
 #: bbpress/form-reply.php:178
 msgid "You must be logged in to reply to this topic."
-msgstr ""
+msgstr "Loggen Sie sich ein, um zu antworten."
 
 #: bbpress/form-search.php:14
 msgid "Search for:"
@@ -179,16 +185,16 @@ msgstr ""
 
 #: bbpress/form-topic-merge.php:92 bbpress/form-topic-split.php:95
 msgid "You do not have the permissions to edit this topic!"
-msgstr ""
+msgstr "Sie haben nicht genügend Rechte um diesen Beitrag zu bearbeiten."
 
 #: bbpress/form-topic-merge.php:92 bbpress/form-topic-split.php:95
 msgid "You cannot edit this topic."
-msgstr ""
+msgstr "Sie können diesen Beitrag nicht bearbeiten."
 
 #: bbpress/form-topic-split.php:24
 #, php-format
 msgid "Split topic \"%s\""
-msgstr ""
+msgstr "Beitrag teilen \"%s\""
 
 #: bbpress/form-topic-split.php:29
 msgid ""
@@ -203,7 +209,7 @@ msgstr ""
 #: bbpress/form-topic-split.php:35
 #, php-format
 msgid "Split: %s"
-msgstr ""
+msgstr "Teilen: %s"
 
 #: bbpress/form-topic-split.php:62
 msgid "Copy subscribers to the new topic"
@@ -263,7 +269,7 @@ msgstr ""
 #: buddypress/members/single/messages/single.php:24
 #: buddypress/members/single/settings/delete-account.php:28
 msgid "Delete"
-msgstr ""
+msgstr "Löschen"
 
 #: bbpress/form-topic-tag.php:83
 msgid ""
@@ -290,7 +296,7 @@ msgstr ""
 
 #: bbpress/form-topic.php:35
 msgid "Create New Topic"
-msgstr ""
+msgstr "Neuen Beitrag erstellen"
 
 #: bbpress/form-topic.php:45
 msgid ""
@@ -354,7 +360,7 @@ msgstr "Angezeigter Name"
 
 #: bbpress/form-user-edit.php:47
 msgid "Contact Info"
-msgstr ""
+msgstr "Kontakt Informationen"
 
 #: bbpress/form-user-edit.php:52 framework/views/ethos/wp-comments.php:80
 msgid "Website"
@@ -362,7 +368,7 @@ msgstr "Website"
 
 #: bbpress/form-user-edit.php:69
 msgid "About Yourself"
-msgstr ""
+msgstr "Über mich"
 
 #: bbpress/form-user-edit.php:69
 msgid "About the user"
@@ -370,7 +376,7 @@ msgstr ""
 
 #: bbpress/form-user-edit.php:74
 msgid "Biographical Info"
-msgstr ""
+msgstr "Biografie"
 
 #: bbpress/form-user-edit.php:82
 msgid "Account"
@@ -405,10 +411,12 @@ msgid ""
 "If you would like to change the password type a new one. Otherwise leave "
 "this blank."
 msgstr ""
+"Wenn Sie das Passwort ändern möchten, geben Sie bitte hier ein neues ein. "
+"Ansonsten kann das Feld leer bleiben"
 
 #: bbpress/form-user-edit.php:119
 msgid "Type your new password again."
-msgstr ""
+msgstr "Wiederholen Sie das neue Passwort."
 
 #: bbpress/form-user-edit.php:128
 msgid "User Role"
@@ -443,10 +451,12 @@ msgid ""
 "Enter in your username or email address below then select the &ldquo;"
 "Reset&rdquo; button."
 msgstr ""
+"Geben Sie ihren Usernamen oder die EMail Adresse an und drücken dann &ldquo;"
+"Reset&rdquo; Button."
 
 #: bbpress/form-user-lost-pass.php:22
 msgid "Username or Email"
-msgstr ""
+msgstr "Benutzername oder E-Mail"
 
 #: bbpress/form-user-lost-pass.php:30
 msgid "Reset"
@@ -456,7 +466,7 @@ msgstr "Zurücksetzen"
 #: framework/functions/global/plugins/buddypress.php:446
 #: framework/functions/global/plugins/buddypress.php:496
 msgid "Create an Account"
-msgstr ""
+msgstr "Neues Konto erstellen"
 
 #: bbpress/form-user-register.php:18
 msgid ""
@@ -468,7 +478,7 @@ msgstr ""
 #: framework/functions/global/plugins/buddypress.php:333
 #: framework/functions/global/plugins/buddypress.php:384
 msgid "Register"
-msgstr ""
+msgstr "Registrieren"
 
 #: bbpress/loop-forums.php:19 bbpress/loop-forums.php:40
 msgid "Forum"
@@ -476,7 +486,7 @@ msgstr ""
 
 #: bbpress/loop-forums.php:20 bbpress/loop-forums.php:41
 msgid "Topics"
-msgstr ""
+msgstr "Themen"
 
 #: bbpress/loop-forums.php:21 bbpress/loop-forums.php:42
 #: bbpress/loop-topics.php:21 bbpress/loop-topics.php:42
@@ -488,7 +498,7 @@ msgstr "Antworten"
 #: buddypress/activity/index.php:83 buddypress/forums/forums-loop.php:24
 #: buddypress/members/single/activity.php:27
 msgid "Posts"
-msgstr ""
+msgstr "Beiträge"
 
 #: bbpress/loop-forums.php:22 bbpress/loop-forums.php:43
 #: bbpress/loop-topics.php:22 bbpress/loop-topics.php:43
@@ -503,11 +513,11 @@ msgstr ""
 #: bbpress/loop-search-forum.php:27
 #, php-format
 msgid "Last updated %s"
-msgstr ""
+msgstr "Zuletzt aktualisiert %s"
 
 #: bbpress/loop-search-topic.php:19
 msgid "Topic: "
-msgstr ""
+msgstr "Thema:"
 
 #: bbpress/loop-single-reply.php:19
 msgid "In reply to: "
@@ -3208,28 +3218,28 @@ msgstr "Shop-Layout"
 
 #: framework/functions/global/admin/customizer/register.php:1125
 msgid "Shop Columns"
-msgstr ""
+msgstr "Shop Zeilen"
 
 #: framework/functions/global/admin/customizer/register.php:1136
 msgid "Product Tabs"
-msgstr ""
+msgstr "Produkttabellen"
 
 #: framework/functions/global/admin/customizer/register.php:1139
 msgid "Description Tab"
-msgstr ""
+msgstr "Beschreibungs Reiter"
 
 #: framework/functions/global/admin/customizer/register.php:1142
 msgid "Additional Information Tab"
-msgstr ""
+msgstr "Zusätzliche Informationen Reiter"
 
 #: framework/functions/global/admin/customizer/register.php:1145
 msgid "Reviews Tab"
-msgstr ""
+msgstr "Rezensionen Reiter"
 
 #: framework/functions/global/admin/customizer/register.php:1148
 #: woocommerce/single-product/related.php:40
 msgid "Related Products"
-msgstr ""
+msgstr "Vorgeschlagene Produkte"
 
 #: framework/functions/global/admin/customizer/register.php:1151
 msgid "Related Product Columns"
@@ -6831,7 +6841,7 @@ msgstr ""
 
 #: framework/views/global/_footer-scroll-top.php:13
 msgid "Back to Top"
-msgstr ""
+msgstr "Zurück nach oben"
 
 #: framework/views/global/_header-widget-areas.php:39
 msgid "Toggle the Widgetbar"
@@ -6880,17 +6890,17 @@ msgstr[1] "%1$s Kommentare zu %2$s"
 
 #: woocommerce/cart/cart-totals.php:22
 msgid "Subtotal"
-msgstr ""
+msgstr "Zwischensumme"
 
 #: woocommerce/cart/cart-totals.php:39
 #: woocommerce/cart/shipping-calculator.php:23
 msgid "Shipping"
-msgstr ""
+msgstr "Versand"
 
 #: woocommerce/cart/cart-totals.php:70 woocommerce/cart/cart.php:29
 #: woocommerce/order/order-details.php:23
 msgid "Total"
-msgstr ""
+msgstr "Summe"
 
 #: woocommerce/cart/cart-totals.php:82
 #, php-format
@@ -6903,92 +6913,97 @@ msgid ""
 "Note: Shipping and taxes are estimated%s and will be updated during checkout "
 "based on your billing and shipping information."
 msgstr ""
+"Info: Versand und Steuern exkl.%s sie werden beim Bezahlvorgang angegeben "
+"basierend auf Zahlungsweise und Lieferadresse."
 
 #: woocommerce/cart/cart.php:26 woocommerce/order/order-details.php:22
 msgid "Product"
-msgstr ""
+msgstr "Produkt"
 
 #: woocommerce/cart/cart.php:28
 msgid "Quantity"
-msgstr ""
+msgstr "Anzahl"
 
 #: woocommerce/cart/cart.php:50
 msgid "Remove this item"
-msgstr ""
+msgstr "Produkt entfernen"
 
 #: woocommerce/cart/cart.php:77
 msgid "Available on backorder"
-msgstr ""
+msgstr "im Rückstand verfügbar"
 
 #: woocommerce/cart/cart.php:123
 msgid "Coupon"
-msgstr ""
+msgstr "Gutschein"
 
 #: woocommerce/cart/cart.php:123
 msgid "Coupon code"
-msgstr ""
+msgstr "Gutschein Nummer"
 
 #: woocommerce/cart/cart.php:123
 msgid "Apply Coupon"
-msgstr ""
+msgstr "Gutschein verwenden"
 
 #: woocommerce/cart/cart.php:129
 msgid "Update Cart"
-msgstr ""
+msgstr "Warenkorb aktualisieren"
 
 #: woocommerce/cart/cross-sells.php:42
 msgid "You May Be Interested In&hellip;"
-msgstr ""
+msgstr "Vielleicht interessiert Sie auch&hellip;"
 
 #: woocommerce/cart/shipping-calculator.php:29
 msgid "Select a country&hellip;"
-msgstr ""
+msgstr "Wählen Sie ein Land&hellip;"
 
 #: woocommerce/cart/shipping-calculator.php:46
 #: woocommerce/cart/shipping-calculator.php:52
 #: woocommerce/cart/shipping-calculator.php:64
 msgid "State / county"
-msgstr ""
+msgstr "Land"
 
 #: woocommerce/cart/shipping-calculator.php:53
 msgid "Select a state&hellip;"
-msgstr ""
+msgstr "Wählen Sie ein Bundesland&hellip;"
 
 #: woocommerce/cart/shipping-calculator.php:72
 msgid "City"
-msgstr ""
+msgstr "Stadt"
 
 #: woocommerce/cart/shipping-calculator.php:78
 msgid "Postcode / Zip"
-msgstr ""
+msgstr "PLZ"
 
 #: woocommerce/cart/shipping-calculator.php:82
 msgid "Update Totals"
-msgstr ""
+msgstr "Summe aktualisieren"
 
 #: woocommerce/checkout/form-billing.php:17
 msgid "Billing &amp; Shipping"
-msgstr ""
+msgstr "Rechnung &amp; Versand"
 
 #: woocommerce/checkout/form-billing.php:21
 #: woocommerce/myaccount/form-edit-address.php:15
 #: woocommerce/order/order-details.php:194
 msgid "Billing Address"
-msgstr ""
+msgstr "Rechnungsadresse"
 
 #: woocommerce/checkout/form-billing.php:40
 msgid "Create an account?"
-msgstr ""
+msgstr "Ein Konto erstellen?"
 
 #: woocommerce/checkout/form-billing.php:51
 msgid ""
 "Create an account by entering the information below. If you are a returning "
 "customer please login at the top of the page."
 msgstr ""
+"Bitte erstellen Sie ein neues Konto und füllen die Informationen aus. Sie "
+"besitzen schon ein Konto? Dann loggen Sie sich einfach mit Ihren "
+"Zugangsdaten ein."
 
 #: woocommerce/checkout/form-shipping.php:30
 msgid "Ship to a different address?"
-msgstr ""
+msgstr "An eine andere Adresse liefern?"
 
 #: woocommerce/checkout/thankyou.php:17
 msgid ""
@@ -6999,26 +7014,27 @@ msgstr ""
 #: woocommerce/checkout/thankyou.php:21
 msgid "Please attempt your purchase again or go to your account page."
 msgstr ""
+"Bitte versuchen Sie ihre Bestellung erneut oder gehen Sie zu Mein Konto."
 
 #: woocommerce/checkout/thankyou.php:23
 msgid "Please attempt your purchase again."
-msgstr ""
+msgstr "Bitte versuchen Sie ihre Bestellung erneut."
 
 #: woocommerce/checkout/thankyou.php:27
 msgid "Pay"
-msgstr ""
+msgstr "Bezahlen"
 
 #: woocommerce/checkout/thankyou.php:29
 msgid "My Account"
-msgstr ""
+msgstr "Mein Konto"
 
 #: woocommerce/checkout/thankyou.php:35 woocommerce/checkout/thankyou.php:66
 msgid "Thank you. Your order has been received."
-msgstr ""
+msgstr "Vielen Danke! Wir haben ihre Bestellung erhalten."
 
 #: woocommerce/checkout/thankyou.php:39
 msgid "Order:"
-msgstr ""
+msgstr "Bestellung:"
 
 #: woocommerce/checkout/thankyou.php:43
 msgid "Date:"
@@ -7026,55 +7042,55 @@ msgstr "Datum:"
 
 #: woocommerce/checkout/thankyou.php:47
 msgid "Total:"
-msgstr ""
+msgstr "Summe:"
 
 #: woocommerce/checkout/thankyou.php:52
 msgid "Payment method:"
-msgstr ""
+msgstr "Bezahlungsmethode"
 
 #: woocommerce/myaccount/form-change-password.php:22
 msgid "New password"
-msgstr ""
+msgstr "Neues Passwort"
 
 #: woocommerce/myaccount/form-change-password.php:27
 msgid "Re-enter new password"
-msgstr ""
+msgstr "Neues Passwort wiederholt eingeben"
 
 #: woocommerce/myaccount/form-edit-address.php:15
 #: woocommerce/order/order-details.php:213
 msgid "Shipping Address"
-msgstr ""
+msgstr "Versandadresse"
 
 #: woocommerce/myaccount/form-edit-address.php:38
 msgid "Save Address"
-msgstr ""
+msgstr "Rechnungsadresse"
 
 #: woocommerce/order/order-details.php:17
 msgid "Order Details"
-msgstr ""
+msgstr "Bestelldetails"
 
 #: woocommerce/order/order-details.php:60
 #, php-format
 msgid "Download file%s"
-msgstr ""
+msgstr "Datei downloaden%s"
 
 #: woocommerce/order/order-details.php:126
 #: woocommerce/order/order-details.php:130
 #, php-format
 msgid "(Includes %s)"
-msgstr ""
+msgstr "(Beinhaltet %s)"
 
 #: woocommerce/order/order-details.php:148
 msgid "Refunded:"
-msgstr ""
+msgstr "zurückerstattet:"
 
 #: woocommerce/order/order-details.php:157
 msgid "Note:"
-msgstr ""
+msgstr "Bemerkung"
 
 #: woocommerce/order/order-details.php:167
 msgid "Customer details"
-msgstr ""
+msgstr "Kunden Details"
 
 #: woocommerce/order/order-details.php:173
 msgid "Email:"
@@ -7082,11 +7098,11 @@ msgstr ""
 
 #: woocommerce/order/order-details.php:177
 msgid "Telephone:"
-msgstr ""
+msgstr "Telefon:"
 
 #: woocommerce/order/order-details.php:177
 msgid "Telephone"
-msgstr ""
+msgstr "Telefon"
 
 #: woocommerce/order/order-details.php:199
 #: woocommerce/order/order-details.php:218
@@ -7097,24 +7113,24 @@ msgstr ""
 #, php-format
 msgid "%s review for %s"
 msgid_plural "%s reviews for %s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s Bewertung für %s"
+msgstr[1] "%s Bewertungen für %s"
 
 #: woocommerce/single-product-reviews.php:42
 msgid "Reviews"
-msgstr ""
+msgstr "Bewertungen"
 
 #: woocommerce/single-product-reviews.php:63
 msgid "There are no reviews yet."
-msgstr ""
+msgstr "Es gibt keine Bewertungen."
 
 #: woocommerce/single-product-reviews.php:78
 msgid "<span>Add a Review</span>"
-msgstr ""
+msgstr "<span>Bewertung erstellen</span>"
 
 #: woocommerce/single-product-reviews.php:78
 msgid "Be the First to Review"
-msgstr ""
+msgstr "Erste Bewertung für"
 
 #: woocommerce/single-product-reviews.php:79
 #, php-format
@@ -7123,7 +7139,7 @@ msgstr "Hinterlassen Sie einen Kommentar zu %s"
 
 #: woocommerce/single-product-reviews.php:90
 msgid "Submit Review"
-msgstr ""
+msgstr "Bewertung abgeben"
 
 #: woocommerce/single-product-reviews.php:97
 msgid "Rating"
@@ -7161,6 +7177,8 @@ msgstr "Ihre Bewertung"
 msgid ""
 "Only logged in customers who have purchased this product may leave a review."
 msgstr ""
+"Nur angemeldete Benutzer, die das Produkt gekauft haben können eine "
+"Rezension erstellen."
 
 #: woocommerce/single-product/add-to-cart/variable.php:30
 msgid "Choose an option"
@@ -7172,7 +7190,7 @@ msgstr "Auswahl löschen"
 
 #: woocommerce/single-product/add-to-cart/variable.php:88
 msgid "This product is currently out of stock and unavailable."
-msgstr ""
+msgstr "Dieses Produkt ist derzeit nicht Lieferbar"
 
 #: woocommerce/single-product/product-attributes.php:25
 msgid "Attribute"
@@ -7184,11 +7202,11 @@ msgstr "Gewicht"
 
 #: woocommerce/single-product/product-attributes.php:41
 msgid "Dimensions"
-msgstr ""
+msgstr "Abmessungen"
 
 #: woocommerce/single-product/up-sells.php:43
 msgid "You may also like&hellip;"
-msgstr ""
+msgstr "Vielleicht gefällt ihnen auch &hellip;"
 
 #~ msgid ""
 #~ "Reply <span class=\"comment-reply-link-after\"><i class=\"x-icon-reply"

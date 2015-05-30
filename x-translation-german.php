@@ -2,7 +2,7 @@
 /**
  * Plugin Name: German Translation for the X Theme
  * Version: 1.0.0
- * Plugin URI: https://github.com/limenet
+ * Plugin URI: https://github.com/limenet/x-theme-translation-german
  * Description: A non-official translation for the X theme into German
  * Author: Linus Metzler
  * Author URI: http://linusmetzler.me
