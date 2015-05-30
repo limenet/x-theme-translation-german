@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: German Translation for the X Theme
- * Version: 0.2.2
+ * Version: 0.2.3
  * Plugin URI: https://github.com/limenet/x-theme-translation-german
  * Description: A non-official translation for the X theme into German
  * Author: Linus Metzler
@@ -11,4 +11,4 @@
  */
 
 
-load_theme_textdomain( '__x__', __DIR__ . '/' );
+load_theme_textdomain( 'cornerstone', __DIR__ . '/' );
