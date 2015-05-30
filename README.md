@@ -30,11 +30,11 @@ If you find any mistakes, let me know ([linusmetzler.me](http://linusmetzler.me)
 
 ## Frequently Asked Questions
 
-= Why is everything still English? =
+### Why is everything still English?
 
 You probably have some other language code (`WP_LANG`) in your `wp-config.php` than `de_DE` (e.g `de_CH`). [See the codex on how to change your language.](https://codex.wordpress.org/Installing_WordPress_in_Your_Language)
 
-= Why are some texts still English? =
+### Why are some texts still English?
 
 Because I haven't translated everything yet. Any help is welcome!
 
