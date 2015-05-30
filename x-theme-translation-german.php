@@ -11,4 +11,4 @@
  */
 
 
-load_theme_textdomain( 'cornerstone', __DIR__ . '/' );
+load_theme_textdomain( '__x__', __DIR__ . '/' );
