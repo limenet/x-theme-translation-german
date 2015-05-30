@@ -54,6 +54,6 @@ Initial release
 
 ## Upgrade Notice
 
-= 0.2 =
+### 0.2
 
 New translations for checkout added
