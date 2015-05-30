@@ -1,4 +1,4 @@
-# Plugin Name
+# German Translation for the X Theme
 
 Contributors: limenet
 Tags: theme,translation
