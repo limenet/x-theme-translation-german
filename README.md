@@ -1,4 +1,5 @@
-=== Plugin Name ===
+# Plugin Name
+
 Contributors: limenet
 Tags: theme,translation
 Requires at least: 3.0
@@ -9,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 A non-official translation for the X theme into German
 
-== Description ==
+## Description
 
 Themeco produced this awesome theme called X (see [theme.co/x](https://theme.co/x/)). Unfortunately, there are no translations available and since I'm using it on a few sites in German, I decided to publish my *non-official* translation here. Feel free to use it.
 If you find any mistakes, let me know ([linusmetzler.me](http://linusmetzler.me))!
@@ -21,13 +22,13 @@ If you find any mistakes, let me know ([linusmetzler.me](http://linusmetzler.me)
 - [Linus Metzler](https://github.com/limenet)
 - anon for `v0.2`
 
-== Installation ==
+## Installation
 
 1. Upload `x-theme-translation-german` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. If your language setting is set to `de_DE` it'll work automatically
 
-== Frequently Asked Questions ==
+## Frequently Asked Questions
 
 = Why is everything still English? =
 
@@ -37,21 +38,21 @@ You probably have some other language code (`WP_LANG`) in your `wp-config.php` t
 
 Because I haven't translated everything yet. Any help is welcome!
 
-== Screenshots ==
+## Screenshots
 
 
-== Changelog ==
+## Changelog
 
-= 0.1 =
+### 0.1
 
 Initial release
 
-= 0.2 =
+### 0.2
 
 - New translations by anon
 - Updated language strings for version 4.0.0 of the theme
 
-== Upgrade Notice ==
+## Upgrade Notice
 
 = 0.2 =
 
