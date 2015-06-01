@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: X\n"
-"POT-Creation-Date: 2015-05-30 15:11+0100\n"
-"PO-Revision-Date: 2015-06-01 19:06+0100\n"
+"POT-Creation-Date: 2015-06-01 19:48+0100\n"
+"PO-Revision-Date: 2015-06-01 19:48+0100\n"
 "Last-Translator: Linus Metzler <linus.metzler@gmail.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -1837,14 +1837,12 @@ msgstr "%1$s"
 #: framework/functions/renew.php:199
 msgid ""
 "Reply <span class=\"comment-reply-link-after\"><i class=\"x-icon-reply\" "
-"data-icon=\"&#xf112;\"></i></span>"
+"data-x-icon=\"&#xf112;\"></i></span>"
 msgstr ""
-"Antworten <span class=\"comment-reply-link-after\"><i class=\"x-icon-reply\" "
-"data-icon=\"&#xf112;\"></i></span>"
 
 #: framework/functions/ethos.php:369
-msgid "Edit <i class=\"x-icon-edit\" data-icon=\"&#xf044;\"></i>"
-msgstr "Bearbeiten <i class=\"x-icon-edit\" data-icon=\"&#xf044;\"></i>"
+msgid "Edit <i class=\"x-icon-edit\" data-x-icon=\"&#xf044;\"></i>"
+msgstr ""
 
 #: framework/functions/ethos.php:378 framework/functions/icon.php:109
 #: framework/functions/integrity.php:211 framework/functions/renew.php:210
@@ -3469,42 +3467,46 @@ msgid "Tumblr Profile URL"
 msgstr "Tumblr Profil-URL"
 
 #: framework/functions/global/admin/customizer/register.php:1237
+msgid "Whatsapp Profile URL"
+msgstr ""
+
+#: framework/functions/global/admin/customizer/register.php:1240
 msgid "SoundCloud Profile URL"
 msgstr "Soundcloud Profil-URL"
 
-#: framework/functions/global/admin/customizer/register.php:1240
+#: framework/functions/global/admin/customizer/register.php:1243
 msgid "RSS Feed URL"
 msgstr "RSS-Feed-URL"
 
-#: framework/functions/global/admin/customizer/register.php:1248
+#: framework/functions/global/admin/customizer/register.php:1251
 msgid "Enable Open Graph"
 msgstr "Open Graph Aktivieren"
 
-#: framework/functions/global/admin/customizer/register.php:1256
+#: framework/functions/global/admin/customizer/register.php:1259
 msgid "Social Fallback Image"
 msgstr "Soziales Fallback-Bild"
 
-#: framework/functions/global/admin/customizer/register.php:1264
+#: framework/functions/global/admin/customizer/register.php:1267
 msgid "Favicon (Set Path to Image Below)"
 msgstr "Favicon (Setzen Sie den Pfad zum Bild unten)"
 
-#: framework/functions/global/admin/customizer/register.php:1267
+#: framework/functions/global/admin/customizer/register.php:1270
 msgid "Touch Icon (iOS and Android)"
 msgstr "Touch Icon (iOS und Android)"
 
-#: framework/functions/global/admin/customizer/register.php:1270
+#: framework/functions/global/admin/customizer/register.php:1273
 msgid "Tile Icon (Microsoft)"
 msgstr "Kachel Icon (Microsoft)"
 
-#: framework/functions/global/admin/customizer/register.php:1273
+#: framework/functions/global/admin/customizer/register.php:1276
 msgid "Tile Icon Background Color"
 msgstr "Kachel Icon Hintergrundfarbe"
 
-#: framework/functions/global/admin/customizer/register.php:1281
+#: framework/functions/global/admin/customizer/register.php:1284
 msgid "CSS"
 msgstr "CSS"
 
-#: framework/functions/global/admin/customizer/register.php:1284
+#: framework/functions/global/admin/customizer/register.php:1287
 msgid "JavaScript"
 msgstr "JavaScript"
 
@@ -6894,7 +6896,7 @@ msgstr "%1$s um %2$s"
 #: framework/functions/icon.php:93
 msgid ""
 "Reply<span class=\"comment-reply-link-after\"><i class=\"x-icon-reply\" data-"
-"icon=\"&#xf112;\"></i></span>"
+"x-icon=\"&#xf112;\"></i></span>"
 msgstr ""
 
 #: framework/functions/icon.php:97 framework/functions/integrity.php:190
@@ -6903,8 +6905,8 @@ msgstr "Beitrag<br>Autor"
 
 #: framework/functions/icon.php:119 framework/functions/integrity.php:207
 #: framework/functions/renew.php:223
-msgid "<i class=\"x-icon-edit\" data-icon=\"&#xf044;\"></i> Edit"
-msgstr "<i class=\"x-icon-edit\" data-icon=\"&#xf044;\"></i> Bearbeiten"
+msgid "<i class=\"x-icon-edit\" data-x-icon=\"&#xf044;\"></i> Edit"
+msgstr ""
 
 #: framework/views/ethos/_landmark-header.php:53
 #: framework/views/integrity/_landmark-header.php:25
@@ -7404,6 +7406,19 @@ msgstr "Abmessungen"
 #: woocommerce/single-product/up-sells.php:43
 msgid "You may also like&hellip;"
 msgstr "Vielleicht gefällt ihnen auch &hellip;"
+
+#~ msgid ""
+#~ "Reply <span class=\"comment-reply-link-after\"><i class=\"x-icon-reply\" "
+#~ "data-icon=\"&#xf112;\"></i></span>"
+#~ msgstr ""
+#~ "Antworten <span class=\"comment-reply-link-after\"><i class=\"x-icon-reply"
+#~ "\" data-icon=\"&#xf112;\"></i></span>"
+
+#~ msgid "Edit <i class=\"x-icon-edit\" data-icon=\"&#xf044;\"></i>"
+#~ msgstr "Bearbeiten <i class=\"x-icon-edit\" data-icon=\"&#xf044;\"></i>"
+
+#~ msgid "<i class=\"x-icon-edit\" data-icon=\"&#xf044;\"></i> Edit"
+#~ msgstr "<i class=\"x-icon-edit\" data-icon=\"&#xf044;\"></i> Bearbeiten"
 
 #~ msgid ""
 #~ "Reply <span class=\"comment-reply-link-after\"><i class=\"x-icon-reply"
