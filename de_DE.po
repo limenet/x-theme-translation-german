@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: X\n"
 "POT-Creation-Date: 2015-05-30 15:11+0100\n"
-"PO-Revision-Date: 2015-06-01 10:06+0100\n"
+"PO-Revision-Date: 2015-06-01 10:48+0100\n"
 "Last-Translator: Linus Metzler <linus.metzler@gmail.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -1714,11 +1714,11 @@ msgstr ""
 
 #: buddypress/members/single/settings/general.php:9
 msgid "Password Lost and Found"
-msgstr ""
+msgstr "Passwort Fundbüro"
 
 #: buddypress/members/single/settings/general.php:9
 msgid "Lost your password?"
-msgstr ""
+msgstr "Passwort vergessen?"
 
 #: buddypress/members/single/settings/general.php:13
 msgid "Account Email"
@@ -1770,7 +1770,7 @@ msgstr "Kommentar hinterlassen bei: &ldquo;%s&rdquo;"
 
 #: framework/functions/ethos.php:213
 msgid "See All Posts"
-msgstr ""
+msgstr "Alle Beiträge anzeigen"
 
 #: framework/functions/ethos.php:248 framework/functions/ethos.php:250
 #: framework/views/ethos/_post-slider.php:77
@@ -2380,11 +2380,11 @@ msgstr "bbPress"
 
 #: framework/functions/global/admin/customizer/register.php:209
 msgid "BuddyPress"
-msgstr ""
+msgstr "BuddyPress"
 
 #: framework/functions/global/admin/customizer/register.php:213
 msgid "WooCommerce"
-msgstr ""
+msgstr "WooCommerce"
 
 #: framework/functions/global/admin/customizer/register.php:222
 msgid "Select"
@@ -2396,11 +2396,11 @@ msgstr "Design"
 
 #: framework/functions/global/admin/customizer/register.php:233
 msgid "Topbar Transparency"
-msgstr ""
+msgstr "Kopfzeile Transparenz"
 
 #: framework/functions/global/admin/customizer/register.php:236
 msgid "Navbar Transparency"
-msgstr ""
+msgstr "Navigationsleiste Transparenz"
 
 #: framework/functions/global/admin/customizer/register.php:239
 msgid "Footer Transparency"
@@ -2425,6 +2425,8 @@ msgid ""
 "Welcome to our little corner of the Internet. Kick your feet up and stay a "
 "while."
 msgstr ""
+"Willkommen in unserer kleinen Ecke des Internets. Lagern Sie die Füsse hoch "
+"und verweilen Sie hier ein bisschen."
 
 #: framework/functions/global/admin/customizer/register.php:253
 msgid "Blog Subtitle"
@@ -2437,15 +2439,15 @@ msgstr "Portfolio sortieren"
 
 #: framework/functions/global/admin/customizer/register.php:261
 msgid "Sort Button Text"
-msgstr ""
+msgstr "Sortierschaltfläche-Text"
 
 #: framework/functions/global/admin/customizer/register.php:264
 msgid "Portfolio Index Sharing"
-msgstr ""
+msgstr "Portfolio-Index Teilen"
 
 #: framework/functions/global/admin/customizer/register.php:274
 msgid "Shop Header"
-msgstr ""
+msgstr "Shop-Kopfzeile"
 
 #: framework/functions/global/admin/customizer/register.php:276
 #: framework/functions/global/admin/customizer/register.php:351
@@ -2453,43 +2455,45 @@ msgstr ""
 #: framework/functions/global/admin/customizer/register.php:551
 #: framework/functions/global/breadcrumbs.php:97
 msgid "The Shop"
-msgstr "Der Laden"
+msgstr "Der Shop"
 
 #: framework/functions/global/admin/customizer/register.php:277
 #: framework/functions/global/admin/customizer/register.php:352
 #: framework/functions/global/admin/customizer/register.php:435
 #: framework/functions/global/admin/customizer/register.php:552
 msgid "Shop Title"
-msgstr ""
+msgstr "Shop Titel"
 
 #: framework/functions/global/admin/customizer/register.php:279
 msgid ""
 "Welcome to our online store. Take some time to browse through our items."
 msgstr ""
+"Herzlich willkommen in unserem Online-Shop. Nehmen Sie sich Zeit, durch "
+"unsere Produkte zu stöbern."
 
 #: framework/functions/global/admin/customizer/register.php:280
 msgid "Shop Subtitle"
-msgstr ""
+msgstr "Shop Untertitel"
 
 #: framework/functions/global/admin/customizer/register.php:290
 msgid "Topbar Background"
-msgstr ""
+msgstr "Kopfzeile Hintergrund"
 
 #: framework/functions/global/admin/customizer/register.php:293
 msgid "Logobar Background"
-msgstr ""
+msgstr "Logoleiste Hintergrund"
 
 #: framework/functions/global/admin/customizer/register.php:296
 msgid "Navbar Background"
-msgstr ""
+msgstr "Navigationsleiste Hintergrund"
 
 #: framework/functions/global/admin/customizer/register.php:299
 msgid "Mobile Button Color"
-msgstr ""
+msgstr "Mobile Schaltflächen-Farbe"
 
 #: framework/functions/global/admin/customizer/register.php:302
 msgid "Mobile Button Background"
-msgstr ""
+msgstr "Mobiler Schaltflächen-Hintergrund"
 
 #: framework/functions/global/admin/customizer/register.php:305
 msgid "Mobile Button Background Hover"
@@ -2501,7 +2505,7 @@ msgstr "Fusszeile Hintergrund"
 
 #: framework/functions/global/admin/customizer/register.php:316
 msgid "Topbar Links and Text"
-msgstr ""
+msgstr "Kopfzeile Links und Text"
 
 #: framework/functions/global/admin/customizer/register.php:319
 msgid "Topbar Links Hover"
@@ -2633,7 +2637,7 @@ msgstr ""
 
 #: framework/functions/global/admin/customizer/register.php:463
 msgid "Post Carousel"
-msgstr ""
+msgstr "Beitrags-Karussell"
 
 #: framework/functions/global/admin/customizer/register.php:466
 #: framework/functions/global/admin/customizer/register.php:503
@@ -2700,11 +2704,11 @@ msgstr "Seitenlayout"
 
 #: framework/functions/global/admin/customizer/register.php:565
 msgid "Site Max Width (px)"
-msgstr ""
+msgstr "Max. Seitenbreite (px)"
 
 #: framework/functions/global/admin/customizer/register.php:568
 msgid "Site Width (%)"
-msgstr ""
+msgstr "Seitenbreite (%)"
 
 #: framework/functions/global/admin/customizer/register.php:571
 msgid "Content Layout"
@@ -2718,7 +2722,7 @@ msgstr "Inhaltbreite (%)"
 
 #: framework/functions/global/admin/customizer/register.php:577
 msgid "Sidebar Width (px)"
-msgstr ""
+msgstr "Sidebar Breite (px)"
 
 #: framework/functions/global/admin/customizer/register.php:590
 #: framework/functions/global/plugins/visual-composer.php:4549
@@ -2791,11 +2795,11 @@ msgstr "Grossschrift"
 
 #: framework/functions/global/admin/customizer/register.php:655
 msgid "Navbar Font"
-msgstr ""
+msgstr "Navigationsleiste Schrift"
 
 #: framework/functions/global/admin/customizer/register.php:658
 msgid "Navbar Links"
-msgstr ""
+msgstr "Navigationsleiste Links"
 
 #: framework/functions/global/admin/customizer/register.php:661
 msgid "Navbar Links Hover"
@@ -2803,11 +2807,11 @@ msgstr ""
 
 #: framework/functions/global/admin/customizer/register.php:664
 msgid "Navbar Font Size (px)"
-msgstr ""
+msgstr "Navigationsleiste Schriftgrösse (px)"
 
 #: framework/functions/global/admin/customizer/register.php:667
 msgid "Navbar Font Weight"
-msgstr ""
+msgstr "Navigationsleiste Schriftstärke"
 
 #: framework/functions/global/admin/customizer/register.php:678
 msgid "Headings Font"
@@ -2853,7 +2857,7 @@ msgstr "Body Schriftstärke"
 
 #: framework/functions/global/admin/customizer/register.php:727
 msgid "Site Links"
-msgstr ""
+msgstr "Seitenlinks"
 
 #: framework/functions/global/admin/customizer/register.php:730
 msgid "Site Links Hover"
@@ -2895,7 +2899,7 @@ msgstr "Schaltfläche unten"
 
 #: framework/functions/global/admin/customizer/register.php:787
 msgid "Navbar Position"
-msgstr ""
+msgstr "Navigationsleiste Position"
 
 #: framework/functions/global/admin/customizer/register.php:795
 #: framework/functions/global/admin/customizer/register.php:930
@@ -2924,15 +2928,15 @@ msgstr ""
 
 #: framework/functions/global/admin/customizer/register.php:820
 msgid "Upload Your Logo"
-msgstr ""
+msgstr "Laden Sie Ihr Logo hoch"
 
 #: framework/functions/global/admin/customizer/register.php:823
 msgid "Logo Width (px)"
-msgstr ""
+msgstr "Logo Breite (px)"
 
 #: framework/functions/global/admin/customizer/register.php:831
 msgid "Navbar Search"
-msgstr ""
+msgstr "Navigationsleiste Suche"
 
 #: framework/functions/global/admin/customizer/register.php:839
 msgid "Navbar Top Logo Alignment (px)"
@@ -2972,15 +2976,15 @@ msgstr ""
 
 #: framework/functions/global/admin/customizer/register.php:876
 msgid "Topbar"
-msgstr ""
+msgstr "Kopfzeile"
 
 #: framework/functions/global/admin/customizer/register.php:879
 msgid "Topbar Content"
-msgstr ""
+msgstr "Kopfzeile Inhalt"
 
 #: framework/functions/global/admin/customizer/register.php:882
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "Brotkrümelnavigation"
 
 #: framework/functions/global/admin/customizer/register.php:890
 msgid "Footer Widget Areas"
@@ -3006,15 +3010,15 @@ msgstr "Fusszeile Inhalt"
 
 #: framework/functions/global/admin/customizer/register.php:913
 msgid "Scroll Top Anchor"
-msgstr ""
+msgstr "Nach oben scrollen Anker"
 
 #: framework/functions/global/admin/customizer/register.php:916
 msgid "Scroll Top Anchor Position"
-msgstr ""
+msgstr "Nach oben scrollen Anker Position"
 
 #: framework/functions/global/admin/customizer/register.php:919
 msgid "When to Display the Scroll Top Anchor (%)"
-msgstr ""
+msgstr "Wann der nach oben scrollen Anker angezeigt wird (%)"
 
 #: framework/functions/global/admin/customizer/register.php:927
 #: framework/functions/global/admin/customizer/register.php:941
@@ -3091,7 +3095,7 @@ msgstr ""
 
 #: framework/functions/global/admin/customizer/register.php:961
 msgid "Excerpt Length"
-msgstr ""
+msgstr "Länge des Auszugs"
 
 #: framework/functions/global/admin/customizer/register.php:969
 msgid "Custom URL Slug"
@@ -3113,11 +3117,11 @@ msgstr ""
 #: framework/functions/global/admin/customizer/register.php:990
 #: framework/functions/global/portfolio.php:229
 msgid "Launch Project"
-msgstr ""
+msgstr "Projekt starten"
 
 #: framework/functions/global/admin/customizer/register.php:991
 msgid "Launch Project Title"
-msgstr ""
+msgstr "Projekt starten Titel"
 
 #: framework/functions/global/admin/customizer/register.php:993
 #: framework/functions/global/portfolio.php:230
@@ -3131,11 +3135,11 @@ msgstr ""
 #: framework/functions/global/admin/customizer/register.php:996
 #: framework/functions/global/portfolio.php:271
 msgid "Share this Project"
-msgstr ""
+msgstr "Teilen Sie dieses Projekt"
 
 #: framework/functions/global/admin/customizer/register.php:997
 msgid "Share Project Title"
-msgstr ""
+msgstr "Diesen Projekttitel Teilen"
 
 #: framework/functions/global/admin/customizer/register.php:1005
 msgid "Facebook Sharing Link"
@@ -3143,23 +3147,23 @@ msgstr "Link zum Teilen auf Facebook"
 
 #: framework/functions/global/admin/customizer/register.php:1008
 msgid "Twitter Sharing Link"
-msgstr ""
+msgstr "Link zum Teilen auf Twitter"
 
 #: framework/functions/global/admin/customizer/register.php:1011
 msgid "Google+ Sharing Link"
-msgstr ""
+msgstr "Link zum Teilen auf Google+"
 
 #: framework/functions/global/admin/customizer/register.php:1014
 msgid "LinkedIn Sharing Link"
-msgstr ""
+msgstr "Link zum Teilen auf LinkedIn"
 
 #: framework/functions/global/admin/customizer/register.php:1017
 msgid "Pinterest Sharing Link"
-msgstr ""
+msgstr "Link zum Teilen auf Pinterest"
 
 #: framework/functions/global/admin/customizer/register.php:1020
 msgid "Reddit Sharing Link"
-msgstr ""
+msgstr "Link zum Teilen auf Reddit"
 
 #: framework/functions/global/admin/customizer/register.php:1023
 msgid "Email Sharing Link"
@@ -3172,7 +3176,7 @@ msgstr ""
 #: framework/functions/global/admin/customizer/register.php:1044
 #: framework/functions/global/admin/customizer/register.php:1064
 msgid "Navbar Menu"
-msgstr ""
+msgstr "Navigationsleiste Menü"
 
 #: framework/functions/global/admin/customizer/register.php:1071
 #: framework/functions/global/plugins/buddypress.php:431
@@ -3193,20 +3197,20 @@ msgstr "Gruppen"
 
 #: framework/functions/global/admin/customizer/register.php:1075
 msgid "Groups Title"
-msgstr ""
+msgstr "Gruppen Titel"
 
 #: framework/functions/global/admin/customizer/register.php:1077
 #: framework/functions/global/plugins/buddypress.php:494
 msgid "Sites"
-msgstr ""
+msgstr "Seiten"
 
 #: framework/functions/global/admin/customizer/register.php:1078
 msgid "Sites Title"
-msgstr ""
+msgstr "Seiten Titel"
 
 #: framework/functions/global/admin/customizer/register.php:1081
 msgid "Members Title"
-msgstr ""
+msgstr "Mitglieder Titel"
 
 #: framework/functions/global/admin/customizer/register.php:1083
 msgid "Create An Account"
@@ -3214,7 +3218,7 @@ msgstr "Konto erstellen"
 
 #: framework/functions/global/admin/customizer/register.php:1084
 msgid "Register Title"
-msgstr ""
+msgstr "Registrieren Titel"
 
 #: framework/functions/global/admin/customizer/register.php:1086
 #: framework/functions/global/plugins/buddypress.php:447
@@ -3424,15 +3428,15 @@ msgstr ""
 
 #: framework/functions/global/admin/customizer/register.php:1264
 msgid "Favicon (Set Path to Image Below)"
-msgstr ""
+msgstr "Favicon (Setzen Sie den Pfad zum Bild unten)"
 
 #: framework/functions/global/admin/customizer/register.php:1267
 msgid "Touch Icon (iOS and Android)"
-msgstr ""
+msgstr "Touch Icon (iOS und Android)"
 
 #: framework/functions/global/admin/customizer/register.php:1270
 msgid "Tile Icon (Microsoft)"
-msgstr ""
+msgstr "Kachel Icon (Microsoft)"
 
 #: framework/functions/global/admin/customizer/register.php:1273
 msgid "Tile Icon Background Color"
@@ -4045,43 +4049,43 @@ msgstr ""
 
 #: framework/functions/global/admin/setup.php:82
 msgid "Primary Menu"
-msgstr ""
+msgstr "Primäres Menü"
 
 #: framework/functions/global/admin/tmg/activation.php:162
 #: framework/functions/global/admin/tmg/registration.php:137
 msgid "Install Required Plugins"
-msgstr ""
+msgstr "Erforderliche Plugins installieren"
 
 #: framework/functions/global/admin/tmg/activation.php:163
 #: framework/functions/global/admin/tmg/registration.php:138
 msgid "Install Plugins"
-msgstr ""
+msgstr "Plugins installieren"
 
 #: framework/functions/global/admin/tmg/activation.php:164
 #: framework/functions/global/admin/tmg/registration.php:139
 #, php-format
 msgid "Installing Plugin: %s"
-msgstr ""
+msgstr "Installiere Plugin: %s"
 
 #: framework/functions/global/admin/tmg/activation.php:165
 msgid "Something went wrong."
-msgstr ""
+msgstr "Etwas ist schief gelaufen."
 
 #: framework/functions/global/admin/tmg/activation.php:166
 #: framework/functions/global/admin/tmg/registration.php:141
 #, php-format
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Dieses Theme erfordert folgendes Plugin: %1$s."
+msgstr[1] "Dieses Theme erfordert folgende Plugins: %1$s."
 
 #: framework/functions/global/admin/tmg/activation.php:167
 #: framework/functions/global/admin/tmg/registration.php:142
 #, php-format
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Dieses Theme empfiehlt das folgende Plugin: %1$s."
+msgstr[1] "Dieses Theme empfiehlt die folgenden Plugins: %1$s."
 
 #: framework/functions/global/admin/tmg/activation.php:168
 #: framework/functions/global/admin/tmg/registration.php:143
@@ -4095,23 +4099,29 @@ msgid_plural ""
 "plugins. Contact the administrator of this site for help on getting the "
 "plugins installed."
 msgstr[0] ""
+"Entschuldigung, aber Sie haben nicht die korrekten Berechtigungen zum "
+"Installieren des %s Plugin. Kontaktieren Sie den Admin dieser Seite zur "
+"Hilfe beim Installieren des Plugins."
 msgstr[1] ""
+"Entschuldigung, aber Sie haben nicht die korrekten Berechtigungen zum "
+"Installieren der %s Plugins. Kontaktieren Sie den Admin dieser Seite zur "
+"Hilfe beim Installieren der Plugins."
 
 #: framework/functions/global/admin/tmg/activation.php:169
 #: framework/functions/global/admin/tmg/registration.php:144
 #, php-format
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Das folgende erforderliche Plugin ist derzeit inaktiv: %1$s."
+msgstr[1] "Die folgenden erforderlichen Plugins sind derzeit inaktiv: %1$s."
 
 #: framework/functions/global/admin/tmg/activation.php:170
 #: framework/functions/global/admin/tmg/registration.php:145
 #, php-format
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Das folgende empfohlene Plugin ist derzeit inaktiv: %1$s."
+msgstr[1] "Die folgenden empfohlenen Plugins sind derzeit inaktiv: %1$s."
 
 #: framework/functions/global/admin/tmg/activation.php:171
 #: framework/functions/global/admin/tmg/registration.php:146
@@ -4125,7 +4135,13 @@ msgid_plural ""
 "plugins. Contact the administrator of this site for help on getting the "
 "plugins activated."
 msgstr[0] ""
+"Entschuldigung, aber Sie haben nicht die korrekten Berechtigungen zum "
+"Aktivieren des %s Plugin. Kontaktieren Sie den Admin dieser Seite zur Hilfe "
+"beim Aktivieren des Plugins."
 msgstr[1] ""
+"Entschuldigung, aber Sie haben nicht die korrekten Berechtigungen zum "
+"Aktivieren der %s Plugins. Kontaktieren Sie den Admin dieser Seite zur Hilfe "
+"beim Aktivieren der Plugins."
 
 #: framework/functions/global/admin/tmg/activation.php:172
 #: framework/functions/global/admin/tmg/registration.php:147
@@ -4137,7 +4153,11 @@ msgid_plural ""
 "The following plugins need to be updated to their latest version to ensure "
 "maximum compatibility with this theme: %1$s."
 msgstr[0] ""
+"Das folgende Plugin muss auf die neueste Version aktualisiert werden, um "
+"maximale Kompatibilität mit diesem Theme zu sicher zu stellen: %1$s."
 msgstr[1] ""
+"Die folgenden Plugin müssen auf die neueste Version aktualisiert werden, um "
+"maximale Kompatibilität mit diesem Theme zu sicher zu stellen: %1$s."
 
 #: framework/functions/global/admin/tmg/activation.php:173
 #: framework/functions/global/admin/tmg/registration.php:148
@@ -4151,14 +4171,20 @@ msgid_plural ""
 "Contact the administrator of this site for help on getting the plugins "
 "updated."
 msgstr[0] ""
+"Entschuldigung, aber Sie haben nicht die korrekten Berechtigungen zum "
+"Aktualisieren des %s Plugin. Kontaktieren Sie den Admin dieser Seite zur "
+"Hilfe beim Aktualisieren des Plugins."
 msgstr[1] ""
+"Entschuldigung, aber Sie haben nicht die korrekten Berechtigungen zum "
+"Aktualisieren der %s Plugin. Kontaktieren Sie den Admin dieser Seite zur "
+"Hilfe beim Aktualisieren der Plugins."
 
 #: framework/functions/global/admin/tmg/activation.php:174
 #: framework/functions/global/admin/tmg/registration.php:149
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Beginne das Plugin zu istallieren"
+msgstr[1] "Beginne die Plugins zu istallieren"
 
 #: framework/functions/global/admin/tmg/activation.php:175
 #: framework/functions/global/admin/tmg/registration.php:150
@@ -4170,24 +4196,24 @@ msgstr[1] "Installierte Plugins aktivieren"
 #: framework/functions/global/admin/tmg/activation.php:176
 #: framework/functions/global/admin/tmg/registration.php:151
 msgid "Return to Required Plugins Installer"
-msgstr ""
+msgstr "Zurück zum Installationsmanager für erforderliche Plugins"
 
 #: framework/functions/global/admin/tmg/activation.php:177
 msgid "Return to the dashboard"
-msgstr ""
+msgstr "Zurück zum Dashboard"
 
 #: framework/functions/global/admin/tmg/activation.php:178
 #: framework/functions/global/admin/tmg/activation.php:1847
 #: framework/functions/global/admin/tmg/registration.php:152
 msgid "Plugin activated successfully."
-msgstr ""
+msgstr "Plugin erfolgreich aktiviert"
 
 #: framework/functions/global/admin/tmg/activation.php:179
 #: framework/functions/global/admin/tmg/activation.php:1545
 msgid "The following plugin was activated successfully:"
 msgid_plural "The following plugins were activated successfully:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "﻿Das folgende Plugin wurde erfolgreich aktiviert: %s."
+msgstr[1] "﻿Die folgenden Plugins wurden erfolgreich aktiviert: %s."
 
 #: framework/functions/global/admin/tmg/activation.php:180
 #, php-format
@@ -4211,19 +4237,19 @@ msgstr "Externer Link"
 
 #: framework/functions/global/admin/tmg/activation.php:1097
 msgid "Private Repository"
-msgstr ""
+msgstr "Privates Repository"
 
 #: framework/functions/global/admin/tmg/activation.php:1100
 msgid "Pre-Packaged"
-msgstr ""
+msgstr "Vor-verpackt"
 
 #: framework/functions/global/admin/tmg/activation.php:1104
 msgid "WordPress Repository"
-msgstr ""
+msgstr "WordPress Verzeichnis"
 
 #: framework/functions/global/admin/tmg/activation.php:1107
 msgid "Required"
-msgstr ""
+msgstr "Erforderlich"
 
 #: framework/functions/global/admin/tmg/activation.php:1107
 msgid "Recommended"
@@ -4235,7 +4261,7 @@ msgstr "Nicht installiert"
 
 #: framework/functions/global/admin/tmg/activation.php:1112
 msgid "Installed But Not Activated"
-msgstr ""
+msgstr "Installiert aber nicht aktiviert"
 
 #: framework/functions/global/admin/tmg/activation.php:1282
 #, php-format
@@ -4243,6 +4269,8 @@ msgid ""
 "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
 "Dashboard\">Return to the Dashboard</a>"
 msgstr ""
+"Keine Plugins zu installieren oder zu aktivieren. <a href=\"%1$s\" title="
+"\"Zurück zum Dashboard\">Zurück zum Dashboard</a>"
 
 #: framework/functions/global/admin/tmg/activation.php:1298
 msgid "Plugin"
@@ -4269,38 +4297,42 @@ msgstr "Installieren"
 
 #: framework/functions/global/admin/tmg/activation.php:1830
 msgid "Install package not available."
-msgstr ""
+msgstr "Installationspaket nicht verfügbar."
 
 #: framework/functions/global/admin/tmg/activation.php:1831
 #, php-format
 msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
 msgstr ""
+"Herunterladen des Installationspakets von <span class=\"code\">%s</"
+"span>&#8230;"
 
 #: framework/functions/global/admin/tmg/activation.php:1832
 msgid "Unpacking the package&#8230;"
-msgstr ""
+msgstr "Entpacken des Pakets&#8230;"
 
 #: framework/functions/global/admin/tmg/activation.php:1833
 msgid "Installing the plugin&#8230;"
-msgstr ""
+msgstr "Das Plugin wird installiert&#8230;"
 
 #: framework/functions/global/admin/tmg/activation.php:1834
 msgid "Plugin install failed."
-msgstr ""
+msgstr "Die Plugininstallation ist fehlgeschlagen."
 
 #: framework/functions/global/admin/tmg/activation.php:1835
 msgid "Plugin installed successfully."
-msgstr ""
+msgstr "Das Plugin wurde erfolgreich installiert."
 
 #: framework/functions/global/admin/tmg/activation.php:1846
 msgid "Plugin activation failed."
-msgstr ""
+msgstr "Aktivierung des Plugins fehlgeschlagen."
 
 #: framework/functions/global/admin/tmg/activation.php:1956
 msgid ""
 "The installation and activation process is starting. This process may take a "
 "while on some hosts, so please be patient."
 msgstr ""
+"Der Installations- und Aktivierungsvorgang wurde gestartet. Dies kann eine "
+"Weile dauern. Bitte gedulden Sie sich ein wenig."
 
 #: framework/functions/global/admin/tmg/activation.php:1957
 #, php-format
@@ -4310,7 +4342,7 @@ msgstr "%1$s erfolgreich installiert und aktiviert."
 #: framework/functions/global/admin/tmg/activation.php:1957
 #: framework/functions/global/admin/tmg/activation.php:1966
 msgid "Show Details"
-msgstr ""
+msgstr "Details anzeigen"
 
 #: framework/functions/global/admin/tmg/activation.php:1957
 #: framework/functions/global/admin/tmg/activation.php:1966
@@ -4319,28 +4351,32 @@ msgstr "Details ausblenden"
 
 #: framework/functions/global/admin/tmg/activation.php:1958
 msgid "All installations and activations have been completed."
-msgstr ""
+msgstr "Alle Installationen und Aktivierungen wurden abgeschlossen."
 
 #: framework/functions/global/admin/tmg/activation.php:1959
 #, php-format
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
-msgstr ""
+msgstr "Installiere und aktivieren Plugin %1$s (%2$d/%3$d)"
 
 #: framework/functions/global/admin/tmg/activation.php:1963
 msgid ""
 "The installation process is starting. This process may take a while on some "
 "hosts, so please be patient."
 msgstr ""
+"Der Installationsvorgang startet jetzt. Dies kann eine Weile dauern. Bitte "
+"gedulden Sie sich."
 
 #: framework/functions/global/admin/tmg/activation.php:1964
 #, php-format
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
 msgstr ""
+"Bei der Installation von %1$s ist ein Fehler aufgetreten: <strong>%2$s</"
+"strong>."
 
 #: framework/functions/global/admin/tmg/activation.php:1965
 #, php-format
 msgid "The installation of %1$s failed."
-msgstr ""
+msgstr "Die Installation von %1$s ist fehlgeschlagen."
 
 #: framework/functions/global/admin/tmg/activation.php:1966
 #, php-format
@@ -4349,20 +4385,20 @@ msgstr "%1$s erfolgreich installiert."
 
 #: framework/functions/global/admin/tmg/activation.php:1967
 msgid "All installations have been completed."
-msgstr ""
+msgstr "Alle Installationen wurden abgeschlossen."
 
 #: framework/functions/global/admin/tmg/activation.php:1968
 #, php-format
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
-msgstr ""
+msgstr "Installiere Plugin %1$s (%2$d/%3$d)"
 
 #: framework/functions/global/admin/tmg/activation.php:2059
 msgid "Return to the Dashboard"
-msgstr ""
+msgstr "Zurück zum Dashboard"
 
 #: framework/functions/global/admin/tmg/registration.php:140
 msgid "Something went wrong with the plugin API."
-msgstr ""
+msgstr "Die Plugin-API hat einen Fehler verursacht."
 
 #: framework/functions/global/admin/tmg/registration.php:153
 #, php-format
@@ -4399,7 +4435,7 @@ msgstr "Suchresultate für:"
 
 #: framework/functions/global/breadcrumbs.php:230
 msgid "Posts by "
-msgstr ""
+msgstr "Beiträge von "
 
 #: framework/functions/global/breadcrumbs.php:234
 msgid "404 (Page Not Found)"
@@ -4418,15 +4454,15 @@ msgstr "Seiten:"
 #: framework/functions/global/content.php:99
 #: framework/functions/global/plugins/buddypress.php:44
 msgid "Read More"
-msgstr ""
+msgstr "Weiterlesen"
 
 #: framework/functions/global/content.php:134
 msgid "Previous Post"
-msgstr ""
+msgstr "Vorheriger Beitrag"
 
 #: framework/functions/global/content.php:140
 msgid "Next Post"
-msgstr ""
+msgstr "Nächster Beitrag"
 
 #: framework/functions/global/featured.php:57
 #: framework/views/ethos/_content-post-header.php:17
@@ -4446,7 +4482,7 @@ msgstr ""
 #: framework/views/renew/content-quote.php:24
 #, php-format
 msgid "Permalink to: \"%s\""
-msgstr ""
+msgstr "Permalink zu: \"%s\""
 
 #: framework/functions/global/navbar.php:143
 msgid "Type and Press &ldquo;enter&rdquo; to Search"
@@ -4469,6 +4505,8 @@ msgid ""
 "Your password should be at least ten characters long. Use upper and lower "
 "case letters, numbers, and symbols to make it even stronger."
 msgstr ""
+"Ihr Passwort sollte mindestens zehn Zeichen lang sein. Verwenden Sie Gross- "
+"und Kleinbuchstaben , Zahlen und Symbole um es noch sicherer zu machen."
 
 #: framework/functions/global/plugins/bbpress.php:428
 #, php-format
@@ -4504,7 +4542,7 @@ msgstr "Foren Suche"
 #: framework/functions/global/plugins/buddypress.php:382
 #: framework/functions/global/plugins/buddypress.php:449
 msgid "Log in"
-msgstr ""
+msgstr "Anmelden"
 
 #: framework/functions/global/plugins/bbpress.php:533
 msgid "Forums"
@@ -4532,11 +4570,11 @@ msgstr "Kommentare"
 
 #: framework/functions/global/plugins/buddypress.php:579
 msgid "Are you sure you want to leave this group?"
-msgstr ""
+msgstr "Sind Sie sicher, dass Sie diese Gruppe wirklich verlassen wollen?"
 
 #: framework/functions/global/plugins/buddypress.php:581
 msgid "My Favorites"
-msgstr ""
+msgstr "Meine Favoriten"
 
 #: framework/functions/global/plugins/buddypress.php:582
 msgid "Rejected"
@@ -4553,7 +4591,7 @@ msgstr ""
 #: framework/functions/global/plugins/buddypress.php:586
 #, php-format
 msgid "Show all %d comments"
-msgstr ""
+msgstr "Alle %d Kommentare anzeigen"
 
 #: framework/functions/global/plugins/buddypress.php:587
 msgid ""
@@ -4654,7 +4692,7 @@ msgstr "Linie"
 #: framework/functions/global/plugins/visual-composer.php:4474
 #: framework/functions/global/plugins/visual-composer.php:4635
 msgid "Structure"
-msgstr ""
+msgstr "Struktur"
 
 #: framework/functions/global/plugins/visual-composer.php:541
 msgid "Place a horizontal rule in your content"
@@ -5106,7 +5144,7 @@ msgstr ""
 #: framework/functions/global/plugins/visual-composer.php:2205
 #: framework/functions/global/plugins/visual-composer.php:2723
 msgid "No Container"
-msgstr ""
+msgstr "Kein Container"
 
 #: framework/functions/global/plugins/visual-composer.php:953
 #: framework/functions/global/plugins/visual-composer.php:1061
@@ -5141,7 +5179,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:1019
 msgid "Draggable"
-msgstr ""
+msgstr "Verschiebbar"
 
 #: framework/functions/global/plugins/visual-composer.php:1020
 msgid "Select to allow your users to drag the map view."
@@ -5186,7 +5224,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:1094
 msgid "Google Map Marker"
-msgstr ""
+msgstr "Google Map Marker"
 
 #: framework/functions/global/plugins/visual-composer.php:1099
 msgid "Place a location marker on your Google map"
@@ -6910,7 +6948,7 @@ msgstr ""
 
 #: framework/views/global/_content-none.php:14
 msgid "Nothing to Show Right Now"
-msgstr ""
+msgstr "Momentan gibt es nichts zu zeigen"
 
 #: framework/views/global/_content-none.php:17
 msgid ""
@@ -6953,7 +6991,7 @@ msgstr ""
 
 #: framework/views/integrity/_landmark-header.php:93
 msgid "You blew up the Internet. "
-msgstr ""
+msgstr "Sie haben das Internet gesprengt! "
 
 #: framework/views/integrity/_landmark-header.php:100
 #: framework/views/integrity/_landmark-header.php:107
@@ -7090,6 +7128,8 @@ msgid ""
 "Unfortunately your order cannot be processed as the originating bank/"
 "merchant has declined your transaction."
 msgstr ""
+"Leider kann Ihre Bestellung nicht verarbeitet werden, da die ausstellende "
+"Bank / Händler Ihre Transaktion abgelehnt hat."
 
 #: woocommerce/checkout/thankyou.php:21
 msgid "Please attempt your purchase again or go to your account page."
