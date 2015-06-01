@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: X\n"
 "POT-Creation-Date: 2015-05-30 15:11+0100\n"
-"PO-Revision-Date: 2015-06-01 14:20+0100\n"
+"PO-Revision-Date: 2015-06-01 19:06+0100\n"
 "Last-Translator: Linus Metzler <linus.metzler@gmail.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -2227,15 +2227,15 @@ msgstr "Volle Breite"
 
 #: framework/functions/global/admin/customizer/register.php:62
 msgid "Boxed"
-msgstr ""
+msgstr "In einer Box"
 
 #: framework/functions/global/admin/customizer/register.php:66
 msgid "Content Left, Sidebar Right"
-msgstr ""
+msgstr "Inhalt links, Seitenleiste rechts"
 
 #: framework/functions/global/admin/customizer/register.php:67
 msgid "Sidebar Left, Content Right"
-msgstr ""
+msgstr "Seitenleiste links, Inhalt rechts"
 
 #: framework/functions/global/admin/customizer/register.php:72
 msgid "Use Global Content Layout"
@@ -2256,7 +2256,7 @@ msgstr "Kreativ"
 
 #: framework/functions/global/admin/customizer/register.php:87
 msgid "Most Commented"
-msgstr "Am moisten kommentiert"
+msgstr "Am meisten kommentiert"
 
 #: framework/functions/global/admin/customizer/register.php:88
 #: framework/functions/global/plugins/visual-composer.php:2693
@@ -2314,7 +2314,7 @@ msgstr "Jumbo"
 
 #: framework/functions/global/admin/customizer/register.php:114
 msgid "Static Top"
-msgstr ""
+msgstr "Statisch oben"
 
 #: framework/functions/global/admin/customizer/register.php:115
 msgid "Fixed Top"
@@ -2334,7 +2334,7 @@ msgstr "Inline"
 
 #: framework/functions/global/admin/customizer/register.php:122
 msgid "Stacked"
-msgstr ""
+msgstr "Gestapelt"
 
 #: framework/functions/global/admin/customizer/register.php:126
 msgid "None (Disables Widget Areas)"
@@ -2547,7 +2547,7 @@ msgstr "Mobiler Schaltflächen-Hintergrund"
 
 #: framework/functions/global/admin/customizer/register.php:305
 msgid "Mobile Button Background Hover"
-msgstr ""
+msgstr "Mobiler Schaltflächen-Hintergrund bei Mouseover"
 
 #: framework/functions/global/admin/customizer/register.php:308
 msgid "Footer Background"
@@ -2559,7 +2559,7 @@ msgstr "Kopfzeile Links und Text"
 
 #: framework/functions/global/admin/customizer/register.php:319
 msgid "Topbar Links Hover"
-msgstr ""
+msgstr "Kopfzeile Links bei Mouseover"
 
 #: framework/functions/global/admin/customizer/register.php:322
 msgid "Footer Links and Text"
@@ -2567,43 +2567,43 @@ msgstr "Fusszeile Links und Text"
 
 #: framework/functions/global/admin/customizer/register.php:333
 msgid "Entry Icons"
-msgstr ""
+msgstr "Eintrag Icons"
 
 #: framework/functions/global/admin/customizer/register.php:336
 msgid "Entry Icon Position"
-msgstr ""
+msgstr "Eintrag Icon Position"
 
 #: framework/functions/global/admin/customizer/register.php:339
 msgid "Entry Icon Horizontal Alignment (%)"
-msgstr ""
+msgstr "Eintrag Icon Horizontale Ausrichtung (%)"
 
 #: framework/functions/global/admin/customizer/register.php:342
 msgid "Entry Icon Vertical Alignment (px)"
-msgstr ""
+msgstr "Eintrag Icon Vertikale Ausrichtung (%)"
 
 #: framework/functions/global/admin/customizer/register.php:362
 msgid "Post Title Icon"
-msgstr ""
+msgstr "Beitragstitel Icon"
 
 #: framework/functions/global/admin/customizer/register.php:365
 msgid "Standard Post Custom Colors"
-msgstr ""
+msgstr "Standard-Beitrag Benutzerdefinierte Farben"
 
 #: framework/functions/global/admin/customizer/register.php:368
 msgid "Standard Post Text"
-msgstr ""
+msgstr "Standard-Beitrag Text"
 
 #: framework/functions/global/admin/customizer/register.php:371
 msgid "Standard Post Background"
-msgstr ""
+msgstr "Standard-Beitrag Hintergrund"
 
 #: framework/functions/global/admin/customizer/register.php:374
 msgid "Image Post Custom Colors"
-msgstr ""
+msgstr "Bild-Beitrag Benutzerdefinierte Farben"
 
 #: framework/functions/global/admin/customizer/register.php:377
 msgid "Image Post Text"
-msgstr ""
+msgstr "Bild-Beitrag Text"
 
 #: framework/functions/global/admin/customizer/register.php:380
 msgid "Image Post Background"
@@ -2611,31 +2611,31 @@ msgstr "Beitragsbildhintergrund"
 
 #: framework/functions/global/admin/customizer/register.php:383
 msgid "Gallery Post Custom Colors"
-msgstr ""
+msgstr "Gallery Beitrag Benutzerdefinierte Farben"
 
 #: framework/functions/global/admin/customizer/register.php:386
 msgid "Gallery Post Text"
-msgstr ""
+msgstr "Gallerie-Beitrag Text"
 
 #: framework/functions/global/admin/customizer/register.php:389
 msgid "Gallery Post Background"
-msgstr ""
+msgstr "Gallerie-Beitrag Hintergrund"
 
 #: framework/functions/global/admin/customizer/register.php:392
 msgid "Video Post Custom Colors"
-msgstr ""
+msgstr "Video-Beitrag Benutzerdefinierte Farben"
 
 #: framework/functions/global/admin/customizer/register.php:395
 msgid "Video Post Text"
-msgstr ""
+msgstr "Video-Beitrag Text"
 
 #: framework/functions/global/admin/customizer/register.php:398
 msgid "Video Post Background"
-msgstr ""
+msgstr "Video-Beitrag Hintergrund"
 
 #: framework/functions/global/admin/customizer/register.php:401
 msgid "Audio Post Custom Colors"
-msgstr ""
+msgstr "Audio­Beitrag Benutzerdefinierte Farben"
 
 #: framework/functions/global/admin/customizer/register.php:404
 msgid "Audio Post Text"
@@ -2647,43 +2647,43 @@ msgstr "Audio­Beitrag Hintergrund"
 
 #: framework/functions/global/admin/customizer/register.php:410
 msgid "Quote Post Custom Colors"
-msgstr ""
+msgstr "Zitat-Beitrag Benutzerdefinierte Farben"
 
 #: framework/functions/global/admin/customizer/register.php:413
 msgid "Quote Post Text"
-msgstr ""
+msgstr "Zitat-Beitrag Text"
 
 #: framework/functions/global/admin/customizer/register.php:416
 msgid "Quote Post Background"
-msgstr ""
+msgstr "Zitat-Beitrag Hintergrund"
 
 #: framework/functions/global/admin/customizer/register.php:419
 msgid "Link Post Custom Colors"
-msgstr ""
+msgstr "Link-Beitrag Benutzerdefinierte Farben"
 
 #: framework/functions/global/admin/customizer/register.php:422
 msgid "Link Post Text"
-msgstr ""
+msgstr "Link-Beitrag Text"
 
 #: framework/functions/global/admin/customizer/register.php:425
 msgid "Link Post Background"
-msgstr ""
+msgstr "Link-Beitrag Hintergrund"
 
 #: framework/functions/global/admin/customizer/register.php:446
 msgid "Topbar Background Color"
-msgstr ""
+msgstr "Kopfzeile Hintergrundfarbe"
 
 #: framework/functions/global/admin/customizer/register.php:449
 msgid "Navbar Background Color"
-msgstr ""
+msgstr "Navigationsleiste Hintergrundfarbe"
 
 #: framework/functions/global/admin/customizer/register.php:452
 msgid "Sidebar Widget Headings Color"
-msgstr ""
+msgstr "Seitenleiste Widget Überschriftsfarbe"
 
 #: framework/functions/global/admin/customizer/register.php:455
 msgid "Sidebar Text Color"
-msgstr ""
+msgstr "Seitenleiste Schriftfarbe"
 
 #: framework/functions/global/admin/customizer/register.php:463
 msgid "Post Carousel"
@@ -2725,7 +2725,7 @@ msgstr "Unterhalb 549 Pixel"
 
 #: framework/functions/global/admin/customizer/register.php:497
 msgid "Post Slider for Blog"
-msgstr ""
+msgstr "Beitragsslider für Blog"
 
 #: framework/functions/global/admin/customizer/register.php:500
 #: framework/functions/global/admin/customizer/register.php:517
@@ -2734,11 +2734,11 @@ msgstr "Slider Höhe (px)"
 
 #: framework/functions/global/admin/customizer/register.php:514
 msgid "Post Slider for Archives"
-msgstr ""
+msgstr "Beitragsslider für Archive"
 
 #: framework/functions/global/admin/customizer/register.php:531
 msgid "Navbar Link Side Padding (px)"
-msgstr ""
+msgstr "Seitenleiste Links seitlicher Innenabstand (px)"
 
 #: framework/functions/global/admin/customizer/register.php:539
 msgid "Filterable Index"
@@ -2853,7 +2853,7 @@ msgstr "Navigationsleiste Links"
 
 #: framework/functions/global/admin/customizer/register.php:661
 msgid "Navbar Links Hover"
-msgstr ""
+msgstr "Navigationsleiste Links bei Mouseover"
 
 #: framework/functions/global/admin/customizer/register.php:664
 msgid "Navbar Font Size (px)"
@@ -2911,7 +2911,7 @@ msgstr "Seitenlinks"
 
 #: framework/functions/global/admin/customizer/register.php:730
 msgid "Site Links Hover"
-msgstr ""
+msgstr "Sitenlinks bei Mouseover"
 
 #: framework/functions/global/admin/customizer/register.php:738
 msgid "Button Style"
@@ -2962,19 +2962,19 @@ msgstr "Layout"
 
 #: framework/functions/global/admin/customizer/register.php:798
 msgid "Logobar Top Spacing (px)"
-msgstr ""
+msgstr "Logoleiste oberer Abstand (px)"
 
 #: framework/functions/global/admin/customizer/register.php:801
 msgid "Logobar Bottom Spacing (px)"
-msgstr ""
+msgstr "Logoleiste unterer Abstand (px)"
 
 #: framework/functions/global/admin/customizer/register.php:809
 msgid "Navbar Top Height (px)"
-msgstr ""
+msgstr "Navigationsleiste oben Höhe (px)"
 
 #: framework/functions/global/admin/customizer/register.php:812
 msgid "Navbar Side Width (px)"
-msgstr ""
+msgstr "Navigationsleiste seitlich Breite (px)"
 
 #: framework/functions/global/admin/customizer/register.php:820
 msgid "Upload Your Logo"
@@ -2990,39 +2990,39 @@ msgstr "Navigationsleiste Suche"
 
 #: framework/functions/global/admin/customizer/register.php:839
 msgid "Navbar Top Logo Alignment (px)"
-msgstr ""
+msgstr "Navigationsleiste oben Logo Ausrichtung (px)"
 
 #: framework/functions/global/admin/customizer/register.php:842
 msgid "Navbar Top Link Alignment (px)"
-msgstr ""
+msgstr "Navigationsleiste oben Link Ausrichtung (px)"
 
 #: framework/functions/global/admin/customizer/register.php:845
 msgid "Navbar Side Logo Alignment (px)"
-msgstr ""
+msgstr "Navigationsleiste seitlich Logo Ausrichtung (px)"
 
 #: framework/functions/global/admin/customizer/register.php:848
 msgid "Navbar Side Link Alignment (px)"
-msgstr ""
+msgstr "Navigationsleiste seitlich Link Ausrichtung (px)"
 
 #: framework/functions/global/admin/customizer/register.php:851
 msgid "Mobile Navbar Button Alignment (px)"
-msgstr ""
+msgstr "Mobile Navigationsleiste Schaltfläche Ausrichtung (px)"
 
 #: framework/functions/global/admin/customizer/register.php:854
 msgid "Mobile Navbar Button Size (px)"
-msgstr ""
+msgstr "Mobile Navigationsleiste Schaltfläche Grösse (px)"
 
 #: framework/functions/global/admin/customizer/register.php:862
 msgid "Header Widget Areas"
-msgstr ""
+msgstr "Kopfzeile Widgetbereiche"
 
 #: framework/functions/global/admin/customizer/register.php:865
 msgid "Widgetbar Button Background"
-msgstr ""
+msgstr "Widgetleiste Schalftläche Hintergrund"
 
 #: framework/functions/global/admin/customizer/register.php:868
 msgid "Widgetbar Button Background Hover"
-msgstr ""
+msgstr "Widgetleiste Schalftläche Hintergrund bei Mouseover"
 
 #: framework/functions/global/admin/customizer/register.php:876
 msgid "Topbar"
@@ -3141,7 +3141,7 @@ msgstr "Beitrag Meta"
 
 #: framework/functions/global/admin/customizer/register.php:958
 msgid "Full Post Content on Index"
-msgstr ""
+msgstr "Vollständigen Beitragsinhalt im Index anzeigen"
 
 #: framework/functions/global/admin/customizer/register.php:961
 msgid "Excerpt Length"
@@ -3153,7 +3153,7 @@ msgstr "Benutzerdefinierter URL-Slug"
 
 #: framework/functions/global/admin/customizer/register.php:977
 msgid "Cropped Featured Images"
-msgstr ""
+msgstr "Zugeschnitte hervorgehobene Bilder"
 
 #: framework/functions/global/admin/customizer/register.php:987
 #: framework/functions/global/portfolio.php:253
@@ -3162,7 +3162,7 @@ msgstr "Kompetenzen"
 
 #: framework/functions/global/admin/customizer/register.php:988
 msgid "Tag List Title"
-msgstr ""
+msgstr "Schlagwortleiste Titel"
 
 #: framework/functions/global/admin/customizer/register.php:990
 #: framework/functions/global/portfolio.php:229
@@ -3176,11 +3176,11 @@ msgstr "Projekt starten Titel"
 #: framework/functions/global/admin/customizer/register.php:993
 #: framework/functions/global/portfolio.php:230
 msgid "See it Live!"
-msgstr ""
+msgstr "Sehen Sie es Live!"
 
 #: framework/functions/global/admin/customizer/register.php:994
 msgid "Launch Project Button Text"
-msgstr ""
+msgstr "Projekt starten Schaltlächen-Titel"
 
 #: framework/functions/global/admin/customizer/register.php:996
 #: framework/functions/global/portfolio.php:271
@@ -3221,7 +3221,7 @@ msgstr "Link zum Teilen via E-Mail"
 
 #: framework/functions/global/admin/customizer/register.php:1036
 msgid "Topic/Reply Quicktags"
-msgstr ""
+msgstr "Thema/Antworten Quicktags"
 
 #: framework/functions/global/admin/customizer/register.php:1044
 #: framework/functions/global/admin/customizer/register.php:1064
@@ -3283,7 +3283,7 @@ msgstr "Titel Aktivieren"
 #: framework/functions/global/admin/customizer/register.php:1094
 #: framework/functions/global/plugins/buddypress.php:518
 msgid "Meet new people, get involved, and stay connected."
-msgstr ""
+msgstr "Neue Leute treffen, sich engagieren, und in Verbindung bleiben."
 
 #: framework/functions/global/admin/customizer/register.php:1095
 msgid "Activity Subtitle"
@@ -3292,30 +3292,34 @@ msgstr "Aktivität Untertitel"
 #: framework/functions/global/admin/customizer/register.php:1097
 #: framework/functions/global/plugins/buddypress.php:520
 msgid "Find others with similar interests and get plugged in."
-msgstr ""
+msgstr "Andere mit ähnlichen Interessen finden und mitmachen."
 
 #: framework/functions/global/admin/customizer/register.php:1098
 msgid "Groups Subtitle"
-msgstr ""
+msgstr "Gruppen-Untertitel"
 
 #: framework/functions/global/admin/customizer/register.php:1100
 #: framework/functions/global/plugins/buddypress.php:522
 msgid ""
 "See what others are writing about. Learn something new and exciting today!"
 msgstr ""
+"Sehen Sie, was andere über das Schreiben. Erfahren Sie etwas Neues und "
+"Aufregendes heute!"
 
 #: framework/functions/global/admin/customizer/register.php:1101
 msgid "Sites Subtitle"
-msgstr ""
+msgstr "Seiten­-Untertitel"
 
 #: framework/functions/global/admin/customizer/register.php:1103
 #: framework/functions/global/plugins/buddypress.php:524
 msgid "Meet your new online community. Kick up your feet and stay awhile."
 msgstr ""
+"Treffen Sie Ihre neue Online-Community. Lagern Sie Ihre Füsse hoch und "
+"verweilen sie ein bisschen."
 
 #: framework/functions/global/admin/customizer/register.php:1104
 msgid "Members Subtitle"
-msgstr ""
+msgstr "Mitglieder-Untertitel"
 
 #: framework/functions/global/admin/customizer/register.php:1106
 #: framework/functions/global/plugins/buddypress.php:526
@@ -3323,10 +3327,12 @@ msgid ""
 "Just fill in the fields below and we'll get a new account set up for you in "
 "no time!"
 msgstr ""
+"Die Registrierung ist einfach. Füllen Sie die Felder aus, und Ihr neues "
+"Konto ist in Kürze bereit."
 
 #: framework/functions/global/admin/customizer/register.php:1107
 msgid "Register Subtitle"
-msgstr ""
+msgstr "Registrieren Untertitel"
 
 #: framework/functions/global/admin/customizer/register.php:1109
 #: framework/functions/global/plugins/buddypress.php:528
@@ -3334,6 +3340,8 @@ msgid ""
 "You're almost there! Simply enter your activation code below and we'll take "
 "care of the rest."
 msgstr ""
+"Sie haben es fast geschafft! Geben Sie einfach Ihren Aktivierungscode unten "
+"ein und wir werden uns um den Rest kümmern."
 
 #: framework/functions/global/admin/customizer/register.php:1110
 msgid "Activate Subtitle"
@@ -3370,27 +3378,27 @@ msgstr "Vorgeschlagene Produkte"
 
 #: framework/functions/global/admin/customizer/register.php:1151
 msgid "Related Product Columns"
-msgstr ""
+msgstr "Ähnliche Produkt Spalten"
 
 #: framework/functions/global/admin/customizer/register.php:1154
 msgid "Related Product Post Count"
-msgstr ""
+msgstr "Anzahl Ähnlicher Produkt-Beiträge"
 
 #: framework/functions/global/admin/customizer/register.php:1157
 msgid "Upsells"
-msgstr ""
+msgstr "Up-Selling"
 
 #: framework/functions/global/admin/customizer/register.php:1160
 msgid "Upsell Columns"
-msgstr ""
+msgstr "Up-Selling Spalten"
 
 #: framework/functions/global/admin/customizer/register.php:1163
 msgid "Upsell Post Count"
-msgstr ""
+msgstr "Anzahl Up-Selling Beiträge"
 
 #: framework/functions/global/admin/customizer/register.php:1171
 msgid "Cross Sells"
-msgstr ""
+msgstr "Cross-Selling"
 
 #: framework/functions/global/admin/customizer/register.php:1174
 msgid "Cross Sell Columns"
@@ -3398,7 +3406,7 @@ msgstr "Cross-Sell Spalten"
 
 #: framework/functions/global/admin/customizer/register.php:1177
 msgid "Cross Sell Post Count"
-msgstr ""
+msgstr "Anzahl Cross-Selling Beiträge"
 
 #: framework/functions/global/admin/customizer/register.php:1185
 msgid "Image Alignment"
@@ -3474,7 +3482,7 @@ msgstr "Open Graph Aktivieren"
 
 #: framework/functions/global/admin/customizer/register.php:1256
 msgid "Social Fallback Image"
-msgstr ""
+msgstr "Soziales Fallback-Bild"
 
 #: framework/functions/global/admin/customizer/register.php:1264
 msgid "Favicon (Set Path to Image Below)"
@@ -3490,7 +3498,7 @@ msgstr "Kachel Icon (Microsoft)"
 
 #: framework/functions/global/admin/customizer/register.php:1273
 msgid "Tile Icon Background Color"
-msgstr ""
+msgstr "Kachel Icon Hintergrundfarbe"
 
 #: framework/functions/global/admin/customizer/register.php:1281
 msgid "CSS"
@@ -3558,7 +3566,7 @@ msgstr ""
 
 #: framework/functions/global/admin/meta/entries.php:52
 msgid "One Page Navigation"
-msgstr ""
+msgstr "Ein-Seiten-Navigation"
 
 #: framework/functions/global/admin/meta/entries.php:53
 msgid ""
@@ -3621,7 +3629,7 @@ msgstr ""
 
 #: framework/functions/global/admin/meta/entries.php:93
 msgid "Icon Page Settings"
-msgstr ""
+msgstr "Icon Seiteneinstellungen"
 
 #: framework/functions/global/admin/meta/entries.php:94
 msgid ""
@@ -3739,7 +3747,7 @@ msgstr ""
 
 #: framework/functions/global/admin/meta/entries.php:257
 msgid "Portfolio Settings"
-msgstr ""
+msgstr "Portfolio Einstellungen"
 
 #: framework/functions/global/admin/meta/entries.php:258
 msgid "Here you will find various options you can use to setup your portfolio."
@@ -3817,12 +3825,12 @@ msgstr ""
 
 #: framework/functions/global/admin/meta/entries.php:378
 msgid "Quote Post Settings"
-msgstr ""
+msgstr "Zitat-Beitrag Einstellungen"
 
 #: framework/functions/global/admin/meta/entries.php:379
 #: framework/functions/global/admin/meta/entries.php:386
 msgid "Input your quote."
-msgstr ""
+msgstr "Geben Sie ihr Zitat ein."
 
 #: framework/functions/global/admin/meta/entries.php:385
 msgid "The Quote"
@@ -3838,7 +3846,7 @@ msgstr ""
 
 #: framework/functions/global/admin/meta/entries.php:410
 msgid "Link Post Settings"
-msgstr ""
+msgstr "Link-Beitrag Einstellungen"
 
 #: framework/functions/global/admin/meta/entries.php:411
 msgid "Input your link."
@@ -3855,7 +3863,7 @@ msgstr ""
 
 #: framework/functions/global/admin/meta/entries.php:435
 msgid "Video Post Settings"
-msgstr ""
+msgstr "Video-Beitrag Einstellungen"
 
 #: framework/functions/global/admin/meta/entries.php:436
 msgid "These settings enable you to embed videos into your posts."
@@ -4087,6 +4095,7 @@ msgstr "Archiv Titel"
 #: framework/functions/global/admin/meta/taxonomies.php:72
 msgid "Enter in a value to overwrite the default title of the archive page."
 msgstr ""
+"Geben Sie einen Wert an, der den Standardtitel der Archivseite überschreibt."
 
 #: framework/functions/global/admin/meta/taxonomies.php:37
 #: framework/functions/global/admin/meta/taxonomies.php:77
@@ -4469,7 +4478,7 @@ msgstr "Alle Plugins wurden installiert und erfolgreich aktiviert. %s"
 
 #: framework/functions/global/admin/widgets.php:54
 msgid "Main Sidebar"
-msgstr ""
+msgstr "Haupt-Seitenleiste"
 
 #: framework/functions/global/admin/widgets.php:56
 msgid "Appears on posts and pages that include the sidebar."
@@ -5326,7 +5335,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:1143
 msgid "Skill Bar"
-msgstr ""
+msgstr "Kompetenzen-Balken"
 
 #: framework/functions/global/plugins/visual-composer.php:1148
 msgid "Include an informational skill bar"
@@ -5485,7 +5494,7 @@ msgstr ""
 #: framework/functions/global/plugins/visual-composer.php:1374
 #: framework/functions/global/plugins/visual-composer.php:1709
 msgid "Info Placement"
-msgstr ""
+msgstr "Info Platzierung"
 
 #: framework/functions/global/plugins/visual-composer.php:1375
 #: framework/functions/global/plugins/visual-composer.php:1710
@@ -5495,7 +5504,7 @@ msgstr ""
 #: framework/functions/global/plugins/visual-composer.php:1387
 #: framework/functions/global/plugins/visual-composer.php:1722
 msgid "Info Trigger"
-msgstr ""
+msgstr "Info Trigger"
 
 #: framework/functions/global/plugins/visual-composer.php:1388
 #: framework/functions/global/plugins/visual-composer.php:1723
@@ -5505,7 +5514,7 @@ msgstr ""
 #: framework/functions/global/plugins/visual-composer.php:1399
 #: framework/functions/global/plugins/visual-composer.php:1734
 msgid "Info Content"
-msgstr ""
+msgstr "Info Inhalt"
 
 #: framework/functions/global/plugins/visual-composer.php:1400
 #: framework/functions/global/plugins/visual-composer.php:1735
@@ -5515,7 +5524,7 @@ msgstr "Weitere Inhalte für das Popover."
 #: framework/functions/global/plugins/visual-composer.php:1406
 #: framework/functions/global/plugins/visual-composer.php:1741
 msgid "Lightbox Thumbnail"
-msgstr ""
+msgstr "Lightbox Vorschaubild"
 
 #: framework/functions/global/plugins/visual-composer.php:1407
 msgid ""
@@ -5526,7 +5535,7 @@ msgstr ""
 #: framework/functions/global/plugins/visual-composer.php:1413
 #: framework/functions/global/plugins/visual-composer.php:1748
 msgid "Lightbox Video"
-msgstr ""
+msgstr "Lightbox Video"
 
 #: framework/functions/global/plugins/visual-composer.php:1414
 msgid "Select if you are linking to a video from this button in the lightbox."
@@ -5535,12 +5544,12 @@ msgstr ""
 #: framework/functions/global/plugins/visual-composer.php:1423
 #: framework/functions/global/plugins/visual-composer.php:1758
 msgid "Lightbox Caption"
-msgstr ""
+msgstr "Lightbox Untertitel"
 
 #: framework/functions/global/plugins/visual-composer.php:1424
 #: framework/functions/global/plugins/visual-composer.php:1759
 msgid "Lightbox caption text."
-msgstr ""
+msgstr "Lightbox Untertitel Text."
 
 #: framework/functions/global/plugins/visual-composer.php:1509
 msgid "Block Grid"
@@ -5659,15 +5668,15 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:2011
 msgid "Columnize"
-msgstr ""
+msgstr "Columnize"
 
 #: framework/functions/global/plugins/visual-composer.php:2016
 msgid "Split your text into multiple columns"
-msgstr ""
+msgstr "Teilen Sie Ihren Text in mehrere Spalten"
 
 #: framework/functions/global/plugins/visual-composer.php:2059
 msgid "Video (Self Hosted)"
-msgstr ""
+msgstr "Video (selbst gehostet)"
 
 #: framework/functions/global/plugins/visual-composer.php:2064
 #: framework/functions/global/plugins/visual-composer.php:2179
@@ -5677,7 +5686,7 @@ msgstr ""
 #: framework/functions/global/plugins/visual-composer.php:2069
 #: framework/functions/global/plugins/visual-composer.php:2192
 msgid "Select your aspect ratio."
-msgstr ""
+msgstr "Wählen Sie Ihr Seitenverhältnis aus."
 
 #: framework/functions/global/plugins/visual-composer.php:2082
 msgid "M4V"
@@ -5707,7 +5716,7 @@ msgstr ""
 #: framework/functions/global/plugins/visual-composer.php:2103
 #: framework/functions/global/plugins/visual-composer.php:2994
 msgid "Advanced Controls"
-msgstr ""
+msgstr "Erweiterte Bedienelemente"
 
 #: framework/functions/global/plugins/visual-composer.php:2104
 msgid "Select to enable advanced controls on your self-hosted video."
@@ -5756,7 +5765,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:2308
 msgid "Parent ID"
-msgstr ""
+msgstr "Übergeordenete ID"
 
 #: framework/functions/global/plugins/visual-composer.php:2309
 msgid ""
@@ -5770,7 +5779,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:2322
 msgid "Open"
-msgstr "Öffnen"
+msgstr "Offen"
 
 #: framework/functions/global/plugins/visual-composer.php:2323
 msgid "Select for your accordion item to be open by default."
@@ -5824,7 +5833,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:2490
 msgid "Tabs"
-msgstr "Tabs"
+msgstr "Registerkarten"
 
 #: framework/functions/global/plugins/visual-composer.php:2495
 msgid "Include a tabs container after your tab nav"
@@ -5848,7 +5857,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:2598
 msgid "Visibility Type"
-msgstr ""
+msgstr "Sichtbarkeit Typ"
 
 #: framework/functions/global/plugins/visual-composer.php:2599
 msgid "Select how you want to hide or show your content."
@@ -5904,7 +5913,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:2713
 msgid "Previous/Next Navigation"
-msgstr ""
+msgstr "Vor/Zurück Navigation"
 
 #: framework/functions/global/plugins/visual-composer.php:2714
 msgid "Select to display the previous/next navigation."
@@ -5920,7 +5929,7 @@ msgstr "Slide"
 
 #: framework/functions/global/plugins/visual-composer.php:2769
 msgid "Include a slide into your slider"
-msgstr ""
+msgstr "Fügen Sie eine Diashow in Ihre Schieberegler"
 
 #: framework/functions/global/plugins/visual-composer.php:2814
 msgid "Protect"
@@ -5932,7 +5941,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:2862
 msgid "Recent Posts"
-msgstr ""
+msgstr "Letzte Beiträge"
 
 #: framework/functions/global/plugins/visual-composer.php:2867
 msgid "Display your most recent posts"
@@ -5948,7 +5957,7 @@ msgstr "Wählen Sie zwischen Standard-Beiträgen oder Portfolio-Beiträgen."
 
 #: framework/functions/global/plugins/visual-composer.php:2882
 msgid "Post Count"
-msgstr ""
+msgstr "Anzahl Beiträge"
 
 #: framework/functions/global/plugins/visual-composer.php:2883
 msgid "Select how many posts to display."
@@ -6038,7 +6047,7 @@ msgstr "Audio (eingebettet)"
 
 #: framework/functions/global/plugins/visual-composer.php:3083
 msgid "Pricing Table"
-msgstr ""
+msgstr "Preistabelle"
 
 #: framework/functions/global/plugins/visual-composer.php:3088
 msgid "Include a pricing table in your content"
@@ -6050,7 +6059,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:3140
 msgid "Pricing Table Column"
-msgstr ""
+msgstr "Preistabelle Spalte"
 
 #: framework/functions/global/plugins/visual-composer.php:3145
 msgid "Include a pricing table column"
@@ -6074,7 +6083,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:3183
 msgid "Currency Symbol"
-msgstr ""
+msgstr "Währungssymbol"
 
 #: framework/functions/global/plugins/visual-composer.php:3184
 msgid "Enter in the currency symbol you want to use."
@@ -6091,7 +6100,7 @@ msgstr "Geben Sie den Preis für die Preistabellenspalte ein."
 
 #: framework/functions/global/plugins/visual-composer.php:3197
 msgid "Interval"
-msgstr ""
+msgstr "Intervall"
 
 #: framework/functions/global/plugins/visual-composer.php:3198
 msgid "Enter in the time period that this pricing column is for."
@@ -6099,7 +6108,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:3236
 msgid "Callout"
-msgstr ""
+msgstr "Callout"
 
 #: framework/functions/global/plugins/visual-composer.php:3241
 msgid "Include a marketing callout into your content"
@@ -6107,11 +6116,11 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:3246
 msgid "Select the alignment for your callout."
-msgstr ""
+msgstr "Wählen Sie die Ausrichtung für Ihr Callout."
 
 #: framework/functions/global/plugins/visual-composer.php:3258
 msgid "Enter the title for your callout."
-msgstr ""
+msgstr "Geben Sie den Titel für Ihr Callout ein"
 
 #: framework/functions/global/plugins/visual-composer.php:3265
 msgid "Enter the message for your callout."
@@ -6119,7 +6128,7 @@ msgstr "Geben Sie die Nachricht für Ihr Callout ein."
 
 #: framework/functions/global/plugins/visual-composer.php:3272
 msgid "Enter the text for your callout button."
-msgstr ""
+msgstr "Geben Sie den Text für Ihre Callout-Schaltfläche ein"
 
 #: framework/functions/global/plugins/visual-composer.php:3278
 #: framework/functions/global/plugins/visual-composer.php:3600
@@ -6149,7 +6158,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:3361
 msgid "Promo Image"
-msgstr ""
+msgstr "Promo Bild"
 
 #: framework/functions/global/plugins/visual-composer.php:3362
 msgid "Include an image for your promo element."
@@ -6161,7 +6170,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:3406
 msgid "Responsive Lightbox"
-msgstr ""
+msgstr "Responsive Lightbox"
 
 #: framework/functions/global/plugins/visual-composer.php:3411
 msgid "Display images in a responsive lightbox"
@@ -6170,7 +6179,7 @@ msgstr ""
 #: framework/functions/global/plugins/visual-composer.php:3415
 #: framework/functions/global/plugins/visual-composer.php:4213
 msgid "Selector"
-msgstr ""
+msgstr "Selektor"
 
 #: framework/functions/global/plugins/visual-composer.php:3416
 msgid ""
@@ -6181,7 +6190,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:3423
 msgid "Deeplink"
-msgstr ""
+msgstr "Deeplink"
 
 #: framework/functions/global/plugins/visual-composer.php:3424
 msgid "Select to activate deeplinking (creates unique link for each image)."
@@ -6237,7 +6246,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:3484
 msgid "Thumbnails"
-msgstr ""
+msgstr "Vorschaubilder"
 
 #: framework/functions/global/plugins/visual-composer.php:3485
 msgid "Select to activate thumbnail navigation."
@@ -6327,27 +6336,27 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:3703
 msgid "Google Plus"
-msgstr ""
+msgstr "Google Plus"
 
 #: framework/functions/global/plugins/visual-composer.php:3704
 msgid "Select to activate the Google Plus sharing link."
-msgstr ""
+msgstr "Auswählen um Teilen auf Google Plus zu aktivieren"
 
 #: framework/functions/global/plugins/visual-composer.php:3713
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn"
 
 #: framework/functions/global/plugins/visual-composer.php:3714
 msgid "Select to activate the LinkedIn sharing link."
-msgstr ""
+msgstr "Auswählen um Teilen auf LinkedIn zu aktivieren"
 
 #: framework/functions/global/plugins/visual-composer.php:3723
 msgid "Pinterest"
-msgstr ""
+msgstr "Pinterest"
 
 #: framework/functions/global/plugins/visual-composer.php:3724
 msgid "Select to activate the Pinterest sharing link."
-msgstr ""
+msgstr "Auswählen um Teilen auf Pinterest zu aktivieren"
 
 #: framework/functions/global/plugins/visual-composer.php:3733
 msgid "Reddit"
@@ -6355,11 +6364,11 @@ msgstr "Reddit"
 
 #: framework/functions/global/plugins/visual-composer.php:3734
 msgid "Select to activate the Reddit sharing link."
-msgstr ""
+msgstr "Auswählen um Teilen auf Reddit  zu aktivieren"
 
 #: framework/functions/global/plugins/visual-composer.php:3744
 msgid "Select to activate the email sharing link."
-msgstr ""
+msgstr "Auswählen um Teilen via E-Mail zu aktivieren"
 
 #: framework/functions/global/plugins/visual-composer.php:3784
 msgid "Table of Contents"
@@ -6479,7 +6488,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:4220
 msgid "Compression"
-msgstr ""
+msgstr "Kompression"
 
 #: framework/functions/global/plugins/visual-composer.php:4221
 msgid ""
@@ -6489,7 +6498,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:4228
 msgid "Minimum Size"
-msgstr ""
+msgstr "Minimale Grösse"
 
 #: framework/functions/global/plugins/visual-composer.php:4229
 msgid "Enter the minimum size of your responsive text."
@@ -6517,21 +6526,23 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:4301
 msgid "Starting Number"
-msgstr ""
+msgstr "Startzahl"
 
 #: framework/functions/global/plugins/visual-composer.php:4302
 msgid "Enter in the number that you would like your counter to start from."
-msgstr ""
+msgstr "Geben Sie die Zahl ein, mit der Ihr Zähler starten soll."
 
 #: framework/functions/global/plugins/visual-composer.php:4309
 msgid "Ending Number"
-msgstr ""
+msgstr "Endzahl"
 
 #: framework/functions/global/plugins/visual-composer.php:4310
 msgid ""
 "Enter int he number that you would like your counter to end at. This must be "
 "higher than your starting number."
 msgstr ""
+"Geben Sie die Zahl ein, mit der Ihr Zähler enden soll. Diese Zahl muss "
+"grosser sein als Ihre Startzahl."
 
 #: framework/functions/global/plugins/visual-composer.php:4317
 msgid "Counter Speed"
@@ -6543,31 +6554,31 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:4325
 msgid "Number Prefix"
-msgstr ""
+msgstr "Zahl Präfix"
 
 #: framework/functions/global/plugins/visual-composer.php:4326
 msgid "Prefix your number with a symbol or text."
-msgstr ""
+msgstr "Stellen Sie Ihrer Zahl ein Symbol oder ein Text voran."
 
 #: framework/functions/global/plugins/visual-composer.php:4332
 msgid "Number Suffix"
-msgstr ""
+msgstr "Zahl Suffix"
 
 #: framework/functions/global/plugins/visual-composer.php:4333
 msgid "Suffix your number with a symbol or text."
-msgstr ""
+msgstr "Fügen Sie Ihrer Zahl ein Symbol oder ein Text hintz."
 
 #: framework/functions/global/plugins/visual-composer.php:4339
 msgid "Number Color"
-msgstr ""
+msgstr "Farbe der Zahl"
 
 #: framework/functions/global/plugins/visual-composer.php:4340
 msgid "Select the color of your number."
-msgstr ""
+msgstr "Wählen Sie die Schriftfarbe Ihrer Zahl."
 
 #: framework/functions/global/plugins/visual-composer.php:4346
 msgid "Text Above"
-msgstr ""
+msgstr "Text oberhalb"
 
 #: framework/functions/global/plugins/visual-composer.php:4347
 msgid "Optionally include text above your number."
@@ -6575,7 +6586,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:4353
 msgid "Text Below"
-msgstr ""
+msgstr "Text unterhalb"
 
 #: framework/functions/global/plugins/visual-composer.php:4354
 msgid "Optionally include text below your number."
@@ -6583,7 +6594,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:4360
 msgid "Text Color"
-msgstr ""
+msgstr "Schriftfarbe"
 
 #: framework/functions/global/plugins/visual-composer.php:4361
 msgid ""
@@ -6783,7 +6794,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:5003
 msgid "Gravity Form"
-msgstr ""
+msgstr "Gravity Form"
 
 #: framework/functions/global/plugins/visual-composer.php:5008
 msgid "Place one of your Gravity Forms into your content"
@@ -6893,7 +6904,7 @@ msgstr "Beitrag<br>Autor"
 #: framework/functions/icon.php:119 framework/functions/integrity.php:207
 #: framework/functions/renew.php:223
 msgid "<i class=\"x-icon-edit\" data-icon=\"&#xf044;\"></i> Edit"
-msgstr ""
+msgstr "<i class=\"x-icon-edit\" data-icon=\"&#xf044;\"></i> Bearbeiten"
 
 #: framework/views/ethos/_landmark-header.php:53
 #: framework/views/integrity/_landmark-header.php:25
