@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: X\n"
 "POT-Creation-Date: 2015-05-30 15:11+0100\n"
-"PO-Revision-Date: 2015-06-01 10:48+0100\n"
+"PO-Revision-Date: 2015-06-01 14:20+0100\n"
 "Last-Translator: Linus Metzler <linus.metzler@gmail.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -39,6 +39,12 @@ msgid ""
 "If you choose an existing topic, replies will be ordered by the time and "
 "date they were created."
 msgstr ""
+"<strong>WARNUNG:</strong> Dieser Vorgang kann nicht rückgängig gemacht "
+"werden. Sie können aus dieser Antwort entweder ein neues Thema mit einem "
+"neuen Titel machen, oder die Antwort mit einem existierenden Thema "
+"zusammenführen. Falls Sie sich für das Zusammenführen mit einem "
+"existierenden Thema entscheiden, warden die Antworten nacht Zeit und Datum "
+"ihrer Erstellung sortiert."
 
 #: bbpress/form-reply-move.php:34 bbpress/form-topic-split.php:34
 #, php-format
@@ -164,6 +170,16 @@ msgid ""
 "created after this one, it's post date will be updated to second earlier "
 "than this one."
 msgstr ""
+"<strong>WARNUNG:</strong> Dieser Vorgang kann nicht rückgängig gemacht "
+"warden. Wählen Sie das Thema aus, welches Sie mit diesem zusammenfügen "
+"wollen. Das Ziel-Thema bleibt das führende Thema und wird dieses Thema in "
+"eine Antwort umwandeln. Um dieses Thema als führendes Thema beizubehalten, "
+"gehen Sie bitte zum anderen Thema und rufen das Zusammenführen-Werkzeug von "
+"dort auf. Alle Antworten in beiden Themen warden chronologisch "
+"zusammengeführt. Die Reihenfolge der zusammengeführten Antworten ist basiert "
+"darauf, wann sie verfasst wurden. Falls das Ziel-Thema nach diesem Thema "
+"erstellt wurde, wird dessen Beitrags-Datum auf das (frühere) Datum dieses "
+"Themas aktualisiert."
 
 #: bbpress/form-topic-merge.php:35
 msgid "Merge with this topic:"
@@ -244,6 +260,9 @@ msgid ""
 "Leave the slug empty to have one automatically generated. Changing the slug "
 "affects its permalink. Any links to the old slug will stop working."
 msgstr ""
+"Lassen Sie den Slug leer um diesen automatisch generieren zu lassen. Das "
+"Ändern des Slugs beeinflusst dessen Permalink. Links zum alten Slug warden "
+"nicht mehr funktionieren."
 
 #: bbpress/form-topic-tag.php:27
 msgid "Name:"
@@ -785,8 +804,8 @@ msgstr "Erwähnungen"
 msgctxt "Number of new activity mentions"
 msgid "%s new"
 msgid_plural "%s new"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s neue"
+msgstr[1] "%s neue"
 
 #: buddypress/activity/index.php:71 buddypress/groups/single/activity.php:3
 msgid "RSS Feed"
@@ -986,6 +1005,13 @@ msgid ""
 "href='%s'>create a new group</a>? Once you have joined or created the group "
 "you can post your topic in that group's forum."
 msgstr ""
+"Sie sind noch kein Mitglied einer Gruppe, daher haben Sie kein Gruppenforum "
+"in welchem Sie Beiträge verfassen können. Um mit dem Verfassen beginnen zu "
+"können, suchen Sie bitte zuerst eine Gruppe, dessen Titel mit dem Thema, "
+"welches Sie verfassen wollen, übereinstimmt. Falls es keine solche Gruppe "
+"gibt, dürfen Sie gerne <a href='%s'>eine neue Gruppe erstellen</a>. Sobald "
+"Sie einer Gruppe beigetreten sind oder eine erstellt haben, können Sie Ihr "
+"Thema im entsprechenden Gruppenforum veröffentlichen."
 
 #: buddypress/groups/create.php:39 buddypress/groups/single/admin.php:30
 msgid "Group Name (required)"
@@ -1656,6 +1682,8 @@ msgid ""
 "If you'd like to delete your current avatar but not upload a new one, please "
 "use the following link:"
 msgstr ""
+"Wenn Sie Ihren aktuellen Avatar löschen, aber keinen Neuen hochladen wollen, "
+"so benutzen Sie bitte den folgenden Link:"
 
 #: buddypress/members/single/profile/change-avatar.php:25
 msgid "Delete My Avatar"
@@ -1695,12 +1723,16 @@ msgid ""
 "Deleting your account will delete all of the content you have created. It "
 "will be completely irrecoverable."
 msgstr ""
+"Das Löschen Ihres Kontos wird alle Inhalte, die Sie erstellt haben, löschen. "
+"Die Daten sind nicht wiederherstellbar."
 
 #: buddypress/members/single/settings/delete-account.php:12
 msgid ""
 "Deleting this account will delete all of the content it has created. It will "
 "be completely irrecoverable."
 msgstr ""
+"Das Löschen dieses Kontos wird alle Inhalte, die es erstellt hat, löschen. "
+"Die Daten sind nicht wiederherstellbar."
 
 #: buddypress/members/single/settings/delete-account.php:23
 msgid "I understand the consequences."
@@ -1711,6 +1743,8 @@ msgid ""
 "Current Password <span>(required to update email or change current "
 "password)</span>"
 msgstr ""
+"Aktuelles Passwort <span>(erforderlich, um E-Mail Adresse zu aktualisieren "
+"oder das aktuelle Passwort zu ändern)</span>"
 
 #: buddypress/members/single/settings/general.php:9
 msgid "Password Lost and Found"
@@ -1726,11 +1760,11 @@ msgstr "Konto E-Mail"
 
 #: buddypress/members/single/settings/general.php:16
 msgid "Change Password <span>(leave blank for no change)</span>"
-msgstr ""
+msgstr "Passwort ändern <span>(leer lassen für keine Änderung)</span>"
 
 #: buddypress/members/single/settings/general.php:19
 msgid "Repeat New Password <span>(confirm above entry)</span>"
-msgstr ""
+msgstr "Neues Passwort wiederholen"
 
 #: buddypress/members/single/settings/profile.php:15
 #: framework/functions/global/plugins/visual-composer.php:2586
@@ -1805,26 +1839,28 @@ msgid ""
 "Reply <span class=\"comment-reply-link-after\"><i class=\"x-icon-reply\" "
 "data-icon=\"&#xf112;\"></i></span>"
 msgstr ""
+"Antworten <span class=\"comment-reply-link-after\"><i class=\"x-icon-reply\" "
+"data-icon=\"&#xf112;\"></i></span>"
 
 #: framework/functions/ethos.php:369
 msgid "Edit <i class=\"x-icon-edit\" data-icon=\"&#xf044;\"></i>"
-msgstr ""
+msgstr "Bearbeiten <i class=\"x-icon-edit\" data-icon=\"&#xf044;\"></i>"
 
 #: framework/functions/ethos.php:378 framework/functions/icon.php:109
 #: framework/functions/integrity.php:211 framework/functions/renew.php:210
 #, php-format
 msgid "Rated %d out of 5"
-msgstr ""
+msgstr "Mit %d von 5 bewertet"
 
 #: framework/functions/ethos.php:379 framework/functions/icon.php:110
 #: framework/functions/integrity.php:212 framework/functions/renew.php:211
 msgid "out of 5"
-msgstr ""
+msgstr "von 5"
 
 #: framework/functions/ethos.php:385 framework/functions/icon.php:123
 #: framework/functions/integrity.php:218 framework/functions/renew.php:227
 msgid "Your comment is awaiting moderation."
-msgstr ""
+msgstr "Ihr Kommentar wartet auf Freischaltung."
 
 #: framework/functions/global/admin/addons/class-plugin-updater.php:234
 #, php-format
@@ -1832,6 +1868,8 @@ msgid ""
 "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox"
 "\" title=\"%3$s\">View version %4$s details</a>."
 msgstr ""
+"Es gibt eine neue Version von %1$s. <a href=\"%2$s\" class=\"thickbox\" "
+"title=\"%3$s\"> Version anzeigen %4$s Details </a>."
 
 #: framework/functions/global/admin/addons/class-plugin-updater.php:236
 #, php-format
@@ -1839,6 +1877,8 @@ msgid ""
 "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox"
 "\" title=\"%3$s\">View version %4$s details</a>. %5$s"
 msgstr ""
+"Es gibt eine neue Version von %1$s. <a href=\"%2$s\" class=\"thickbox\" "
+"title=\"%3$s\"> Version anzeigen %4$s Details </a>. %5$s"
 
 #: framework/functions/global/admin/addons/class-plugin-updater.php:238
 #, php-format
@@ -1847,12 +1887,17 @@ msgid ""
 "\" title=\"%3$s\">View version %4$s details</a> or <a href=\"%5$s\">update "
 "now</a>."
 msgstr ""
+"Es gibt eine neue Version von %1$s. <a href=\"%2$s\" class=\"thickbox\" "
+"title=\"%3$s\"> Version anzeigen %4$s Details </a> oder <a href=\"%5$s"
+"\">jetzt aktualisieren</a>."
 
 #: framework/functions/global/admin/addons/class-update-api.php:86
 msgid ""
 "Could not establish connection. Please ensure your firewall is not blocking "
 "requests to <strong>theme.co</strong>"
 msgstr ""
+"Es konnte keine Verbindung hergestellt werden. Bitte stellen Sie sicher, "
+"dass Ihre Firewall Anfragen an <strong>theme.co</strong> nicht blockiert"
 
 #: framework/functions/global/admin/addons/class-update-api.php:163
 #: framework/functions/global/admin/addons/class-update-api.php:167
@@ -1883,6 +1928,8 @@ msgid ""
 "<a href=\"%s\">Validate X to enable automatic updates (go to \"Addons\" &gt; "
 "\"Home\" to learn more.)</a>"
 msgstr ""
+"<a href=\"%s\">Validieren Sie X, um die automatischen Updates zu aktivieren "
+"(gehen Sie zu \"Addons\" &gt; \"Home\" um mehr zu erfahren</a>."
 
 #: framework/functions/global/admin/addons/class-update-api.php:183
 #, php-format
@@ -1898,6 +1945,9 @@ msgid ""
 "Could not retrieve extensions list. Please ensure your firewall is not "
 "blocking requests to <strong>theme.co</strong>."
 msgstr ""
+"Die Liste der Erweiterungen konnte nicht abgerufen werden. Bitte stellen Sie "
+"sicher, dass Ihre Firewall Anfragen an <strong>theme.co</strong> nicht "
+"blockiert"
 
 #: framework/functions/global/admin/addons/demo/helper.php:104
 #: framework/functions/global/admin/addons/demo/helper.php:143
@@ -1925,7 +1975,7 @@ msgstr "<a href=\\\"%s\\\">Erweiterungen</a>"
 
 #: framework/functions/global/admin/custom-post-types.php:31
 msgid "Portfolio Item"
-msgstr ""
+msgstr "Portfolio-Element"
 
 #: framework/functions/global/admin/custom-post-types.php:32
 msgid "Add New Item"
@@ -1934,7 +1984,7 @@ msgstr "Neues Element Hinzufügen"
 #: framework/functions/global/admin/custom-post-types.php:33
 #: framework/functions/global/admin/custom-post-types.php:35
 msgid "Add New Portfolio Item"
-msgstr ""
+msgstr "Neues Portfolio-Element hinzufügen"
 
 #: framework/functions/global/admin/custom-post-types.php:34
 msgid "Edit Portfolio Item"
@@ -1950,28 +2000,28 @@ msgstr "Portfolio durchsuchen"
 
 #: framework/functions/global/admin/custom-post-types.php:38
 msgid "No portfolio items found"
-msgstr ""
+msgstr "Keine Portfolio-Elemente gefunden"
 
 #: framework/functions/global/admin/custom-post-types.php:39
 msgid "No portfolio items found in trash"
-msgstr ""
+msgstr "Keine Portfolio-Elemente im Papierkorb gefunden"
 
 #: framework/functions/global/admin/custom-post-types.php:65
 #: framework/functions/global/admin/custom-post-types.php:79
 msgid "Portfolio Tags"
-msgstr ""
+msgstr "Portfolio-Schlagwörter"
 
 #: framework/functions/global/admin/custom-post-types.php:66
 msgid "Portfolio Tag"
-msgstr ""
+msgstr "Portfolio-Schlagwort"
 
 #: framework/functions/global/admin/custom-post-types.php:67
 msgid "Search Portfolio Tags"
-msgstr ""
+msgstr "Portfolio-Schlagwörter durchsuchen"
 
 #: framework/functions/global/admin/custom-post-types.php:68
 msgid "Popular Portfolio Tags"
-msgstr ""
+msgstr "Beliebte Portfolio-Schlagwörter"
 
 #: framework/functions/global/admin/custom-post-types.php:69
 msgid "All Portfolio Tags"
@@ -1979,11 +2029,11 @@ msgstr "Alle Portfolio Schlagwörer"
 
 #: framework/functions/global/admin/custom-post-types.php:70
 msgid "Parent Portfolio Tag"
-msgstr ""
+msgstr "Übergeordnetes Portfolio-Schlagwort"
 
 #: framework/functions/global/admin/custom-post-types.php:71
 msgid "Parent Portfolio Tag:"
-msgstr ""
+msgstr "Übergeordnetes Portfolio-Schlagwort:"
 
 #: framework/functions/global/admin/custom-post-types.php:72
 msgid "Edit Portfolio Tag"
@@ -1991,44 +2041,44 @@ msgstr "Portfolio-Schlagwort bearbeiten"
 
 #: framework/functions/global/admin/custom-post-types.php:73
 msgid "Update Portfolio Tag"
-msgstr ""
+msgstr "Portfolio-Schlagwort aktualisieren"
 
 #: framework/functions/global/admin/custom-post-types.php:74
 msgid "Add New Portfolio Tag"
-msgstr ""
+msgstr "Neues Portfolio-Schlagwort hinzüfgen"
 
 #: framework/functions/global/admin/custom-post-types.php:75
 msgid "New Portfolio Tag Name"
-msgstr ""
+msgstr "Neues Portfolio-Schlagwort Name"
 
 #: framework/functions/global/admin/custom-post-types.php:76
 msgid "Separate portfolio tags with commas"
-msgstr ""
+msgstr "Portfolio-Schlagwörter durch Kommas trennen"
 
 #: framework/functions/global/admin/custom-post-types.php:77
 msgid "Add or remove portfolio tags"
-msgstr ""
+msgstr "Portfolio-Schlagwörter hinzufügen oder entfernen"
 
 #: framework/functions/global/admin/custom-post-types.php:78
 msgid "Choose from the most used portfolio tags"
-msgstr ""
+msgstr "Aus den meist verwendeten Portfolio-Schlagwörtern auswählen"
 
 #: framework/functions/global/admin/custom-post-types.php:102
 #: framework/functions/global/admin/custom-post-types.php:116
 msgid "Portfolio Categories"
-msgstr ""
+msgstr "Portfolio-Kategorieren"
 
 #: framework/functions/global/admin/custom-post-types.php:103
 msgid "Portfolio Category"
-msgstr ""
+msgstr "Portfolio-Kategorie"
 
 #: framework/functions/global/admin/custom-post-types.php:104
 msgid "Search Portfolio Categories"
-msgstr ""
+msgstr "Portfolio-Kategorien durchsuchen"
 
 #: framework/functions/global/admin/custom-post-types.php:105
 msgid "Popular Portfolio Categories"
-msgstr ""
+msgstr "Beliebte Portfolio-Kategorien"
 
 #: framework/functions/global/admin/custom-post-types.php:106
 msgid "All Portfolio Categories"
@@ -2036,11 +2086,11 @@ msgstr "Alle Portfolio Kategorien"
 
 #: framework/functions/global/admin/custom-post-types.php:107
 msgid "Parent Portfolio Category"
-msgstr ""
+msgstr "Übergeordnete Portfolio-Kategorie"
 
 #: framework/functions/global/admin/custom-post-types.php:108
 msgid "Parent Portfolio Category:"
-msgstr ""
+msgstr "Übergeordnete Portfolio-Kategorie:"
 
 #: framework/functions/global/admin/custom-post-types.php:109
 msgid "Edit Portfolio Category"
@@ -2048,31 +2098,31 @@ msgstr "Portfolio-Kategorie bearbeiten"
 
 #: framework/functions/global/admin/custom-post-types.php:110
 msgid "Update Portfolio Category"
-msgstr ""
+msgstr "Portfolio-Kategorie aktualisieren"
 
 #: framework/functions/global/admin/custom-post-types.php:111
 msgid "Add New Portfolio Category"
-msgstr ""
+msgstr "Neue Portfolio-Kategorie hinzufügen"
 
 #: framework/functions/global/admin/custom-post-types.php:112
 msgid "New Portfolio Category Name"
-msgstr ""
+msgstr "Neue Portfolio-Kategorie Name"
 
 #: framework/functions/global/admin/custom-post-types.php:113
 msgid "Separate portfolio categories with commas"
-msgstr ""
+msgstr "Portfolio-Kategorien durch Kommas trennen"
 
 #: framework/functions/global/admin/custom-post-types.php:114
 msgid "Add or remove portfolio categories"
-msgstr ""
+msgstr "Portfolio-Kategorie hinzufügen oder entfernen"
 
 #: framework/functions/global/admin/custom-post-types.php:115
 msgid "Choose from the most used portfolio categories"
-msgstr ""
+msgstr "Aus den meist verwendeten Portfolio-Kategorien auswählen"
 
 #: framework/functions/global/admin/custom-post-types.php:154
 msgid "Thumbnail"
-msgstr ""
+msgstr "Vorschaubild"
 
 #: framework/functions/global/admin/customizer/fonts.php:3198
 msgid "Ultra Light"
@@ -2206,7 +2256,7 @@ msgstr "Kreativ"
 
 #: framework/functions/global/admin/customizer/register.php:87
 msgid "Most Commented"
-msgstr ""
+msgstr "Am moisten kommentiert"
 
 #: framework/functions/global/admin/customizer/register.php:88
 #: framework/functions/global/plugins/visual-composer.php:2693
@@ -2216,7 +2266,7 @@ msgstr "Zufällig"
 #: framework/functions/global/admin/customizer/register.php:89
 #: framework/functions/global/plugins/visual-composer.php:3166
 msgid "Featured"
-msgstr ""
+msgstr "Hervorgehoben"
 
 #: framework/functions/global/admin/customizer/register.php:93
 msgid "3D"
@@ -2228,7 +2278,7 @@ msgstr "Flat"
 
 #: framework/functions/global/admin/customizer/register.php:95
 msgid "Transparent"
-msgstr ""
+msgstr "Transparent"
 
 #: framework/functions/global/admin/customizer/register.php:99
 msgid "Square"
@@ -2288,7 +2338,7 @@ msgstr ""
 
 #: framework/functions/global/admin/customizer/register.php:126
 msgid "None (Disables Widget Areas)"
-msgstr ""
+msgstr "Keine (deaktiviert Widget-Bereiche)"
 
 #: framework/functions/global/admin/customizer/register.php:127
 #: framework/functions/global/admin/customizer/register.php:149
@@ -3712,6 +3762,7 @@ msgstr ""
 #: framework/functions/global/admin/meta/entries.php:272
 msgid "Select how many columns you would like to display for your portfolio."
 msgstr ""
+"Bitte wählen Sie die Anzahl der Spalten, die Sie für Ihr Portfolio wollen."
 
 #: framework/functions/global/admin/meta/entries.php:280
 msgid ""
@@ -3725,6 +3776,8 @@ msgstr ""
 msgid ""
 "Select how many posts you would like to display per page for your portfolio."
 msgstr ""
+"Bitte wählen Sie die Anzahl der Beiträge pro Seite, die Sie für Ihr "
+"Portfolio wollen."
 
 #: framework/functions/global/admin/meta/entries.php:294
 msgid "Disable Filtering"
@@ -3735,6 +3788,8 @@ msgid ""
 "Turning off the portfolio filters will remove the ability to sort portfolio "
 "items by category."
 msgstr ""
+"Das  Ausschalten der Portfolio-Filter entfernt die Möglichkeit, die "
+"Portfolio-Elemente nach Kategorie zu sortieren."
 
 #: framework/functions/global/admin/meta/entries.php:318
 msgid "Post Settings"
@@ -3787,7 +3842,7 @@ msgstr ""
 
 #: framework/functions/global/admin/meta/entries.php:411
 msgid "Input your link."
-msgstr ""
+msgstr "Geben Sie Ihren Link ein."
 
 #: framework/functions/global/admin/meta/entries.php:417
 msgid "The Link"
@@ -3796,6 +3851,7 @@ msgstr "Der Link"
 #: framework/functions/global/admin/meta/entries.php:418
 msgid "Insert your link URL, e.g. http://www.themeforest.net."
 msgstr ""
+"Bitte geben Sie die URL für Ihren Link ein. z.B. http://www.themeforest.net."
 
 #: framework/functions/global/admin/meta/entries.php:435
 msgid "Video Post Settings"
@@ -3827,7 +3883,7 @@ msgstr "Die URL zu der .m4v Videodatei."
 #: framework/functions/global/admin/meta/entries.php:457
 #: framework/functions/global/admin/meta/entries.php:690
 msgid "OGV File URL"
-msgstr ""
+msgstr "OGV Datei-URL"
 
 #: framework/functions/global/admin/meta/entries.php:458
 msgid "The URL to the .ogv video file."
@@ -3864,7 +3920,7 @@ msgstr "Die URL zu der .mp3 Audiodatei."
 
 #: framework/functions/global/admin/meta/entries.php:496
 msgid "OGA File URL"
-msgstr ""
+msgstr "OGA Datei-URL"
 
 #: framework/functions/global/admin/meta/entries.php:497
 msgid "The URL to the .oga or .ogg audio file."
@@ -3942,15 +3998,15 @@ msgstr ""
 
 #: framework/functions/global/admin/meta/entries.php:585
 msgid "Portfolio Item Settings"
-msgstr ""
+msgstr "Portfolio-Element Einstellungen"
 
 #: framework/functions/global/admin/meta/entries.php:586
 msgid "Select the appropriate options for your portfolio item."
-msgstr ""
+msgstr "Wählen Sie die entsprechenden Optionen für Ihr Portfolio-Element aus."
 
 #: framework/functions/global/admin/meta/entries.php:606
 msgid "Portfolio Parent"
-msgstr ""
+msgstr "Übergeordnetes Portfolio-Element"
 
 #: framework/functions/global/admin/meta/entries.php:607
 msgid ""
@@ -3970,6 +4026,10 @@ msgid ""
 "selecting a \"Gallery,\" simply upload your images to this post and organize "
 "them in the order you want them to display."
 msgstr ""
+"Wählen Sie aus, welche Art von Medien, Sie für Ihr Portfolio anzeigen "
+"möchten. Falls Sie \"Gallerie\" auswählen, laden Sie einfach Ihre Bilder in "
+"diesen Beitrag hoch und organisieren Sie die Reihenfolge, in welcher Sie die "
+"Bilder angezeigt haben möchten."
 
 #: framework/functions/global/admin/meta/entries.php:621
 msgid "Featured Content"
@@ -3983,7 +4043,7 @@ msgstr ""
 
 #: framework/functions/global/admin/meta/entries.php:629
 msgid "Project Link"
-msgstr ""
+msgstr "Projekt Link"
 
 #: framework/functions/global/admin/meta/entries.php:630
 msgid ""
@@ -3992,15 +4052,17 @@ msgstr ""
 
 #: framework/functions/global/admin/meta/entries.php:668
 msgid "Video Portfolio Item Settings"
-msgstr ""
+msgstr "Video Portfolio-Element Einstellungen"
 
 #: framework/functions/global/admin/meta/entries.php:669
 msgid "These settings enable you to embed videos into your portfolio items."
 msgstr ""
+"Diese Einstellungen erlauben Ihnen, Videos in Ihren Portfolio-Elementen "
+"einzubinden."
 
 #: framework/functions/global/admin/meta/entries.php:675
 msgid "Video Aspect Ratio"
-msgstr ""
+msgstr "Video Seitenverhältnis"
 
 #: framework/functions/global/admin/meta/entries.php:676
 msgid ""
@@ -4486,19 +4548,19 @@ msgstr "Permalink zu: \"%s\""
 
 #: framework/functions/global/navbar.php:143
 msgid "Type and Press &ldquo;enter&rdquo; to Search"
-msgstr ""
+msgstr "Eintippen und &ldquo;Enter&rdquo; drücken um zu suchen"
 
 #: framework/functions/global/plugins/bbpress.php:77
 msgid "To Forums List"
-msgstr ""
+msgstr "Zur Liste der Foren"
 
 #: framework/functions/global/plugins/bbpress.php:188
 msgid "Topic Tags"
-msgstr ""
+msgstr "Thema-Schlagwörter"
 
 #: framework/functions/global/plugins/bbpress.php:302
 msgid "To Parent Forum"
-msgstr ""
+msgstr "Zum übergeordneten Forum"
 
 #: framework/functions/global/plugins/bbpress.php:348
 msgid ""
@@ -4511,7 +4573,7 @@ msgstr ""
 #: framework/functions/global/plugins/bbpress.php:428
 #, php-format
 msgid "Topic Tag: %s"
-msgstr ""
+msgstr "Thema-Schlagwort: %s"
 
 #: framework/functions/global/plugins/bbpress.php:491
 #: framework/functions/global/plugins/visual-composer.php:1513
@@ -4586,7 +4648,7 @@ msgstr "Alles anzeigen"
 
 #: framework/functions/global/plugins/buddypress.php:585
 msgid "Show all comments for this thread"
-msgstr ""
+msgstr "Alle Kommentare zu diesem Thema anzeigen"
 
 #: framework/functions/global/plugins/buddypress.php:586
 #, php-format
@@ -4598,6 +4660,8 @@ msgid ""
 "Your profile has unsaved changes. If you leave the page, the changes will be "
 "lost."
 msgstr ""
+"Ihr Profil hat ungespeicherte Änderungen. Wenn Sie diese Seite verlassen, "
+"gehen diese verloren."
 
 #: framework/functions/global/plugins/buddypress.php:588
 msgid "View"
@@ -4634,6 +4698,8 @@ msgstr "Designoptionen ausblenden"
 #: framework/functions/global/plugins/visual-composer.php:131
 msgid "Toggle certain Visual Composer features for better integration with X."
 msgstr ""
+"Schaltet bestimmte Visual Composer Funktionen für eine bessere Integration "
+"mit X um."
 
 #: framework/functions/global/plugins/visual-composer.php:162
 #: framework/functions/global/plugins/visual-composer.php:166
@@ -5878,7 +5944,7 @@ msgstr "Beitragstyp"
 
 #: framework/functions/global/plugins/visual-composer.php:2872
 msgid "Choose between standard posts or portfolio posts."
-msgstr ""
+msgstr "Wählen Sie zwischen Standard-Beiträgen oder Portfolio-Beiträgen."
 
 #: framework/functions/global/plugins/visual-composer.php:2882
 msgid "Post Count"
