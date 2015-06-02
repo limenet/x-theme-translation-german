@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: X\n"
 "POT-Creation-Date: 2015-06-01 19:48+0100\n"
-"PO-Revision-Date: 2015-06-01 19:48+0100\n"
+"PO-Revision-Date: 2015-06-02 21:35+0100\n"
 "Last-Translator: Linus Metzler <linus.metzler@gmail.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -1839,10 +1839,12 @@ msgid ""
 "Reply <span class=\"comment-reply-link-after\"><i class=\"x-icon-reply\" "
 "data-x-icon=\"&#xf112;\"></i></span>"
 msgstr ""
+"Antworten <span class=\"comment-reply-link-after\"><i class=\"x-icon-reply\" "
+"data-x-icon=\"&#xf112;\"></i></span>"
 
 #: framework/functions/ethos.php:369
 msgid "Edit <i class=\"x-icon-edit\" data-x-icon=\"&#xf044;\"></i>"
-msgstr ""
+msgstr "Bearbeiten <i class=\"x-icon-edit\" data-x-icon=\"&#xf044;\"></i>"
 
 #: framework/functions/ethos.php:378 framework/functions/icon.php:109
 #: framework/functions/integrity.php:211 framework/functions/renew.php:210
@@ -3468,7 +3470,7 @@ msgstr "Tumblr Profil-URL"
 
 #: framework/functions/global/admin/customizer/register.php:1237
 msgid "Whatsapp Profile URL"
-msgstr ""
+msgstr "WhatsApp Profil-URL"
 
 #: framework/functions/global/admin/customizer/register.php:1240
 msgid "SoundCloud Profile URL"
@@ -3575,6 +3577,9 @@ msgid ""
 "To activate your one page navigation, select a menu from the dropdown. To "
 "deactivate one page navigation, set the dropdown back to \"Deactivated.\""
 msgstr ""
+"Um die Ein-Seiten-Navigaiton zu aktivieren wählen Sie bitte ein Menü aus der "
+"Auswahl-Liste aus. Um die Ein-Seiten-Navigation zu deaktivieren, setzen sie "
+"die Auswahl-Liste zurück zu \"Deaktiviert\"."
 
 #: framework/functions/global/admin/meta/entries.php:59
 #: framework/functions/global/admin/meta/entries.php:346
@@ -3651,6 +3656,9 @@ msgid ""
 "sidebar on your blank templates. If that is the case, select \"Yes\" to "
 "activate your sidebar."
 msgstr ""
+"Aufgrund des einzigartigen Layouts von Icon, kann es vorkommen, dass Sie "
+"eine Seitenleiste bei leeren Vorlagen anzeigen wollen. Wenn dies der Fall "
+"ist, wählen Sie \"ja\" aus um die Seitenleiste zu aktivieren."
 
 #: framework/functions/global/admin/meta/entries.php:123
 msgid "Slider Settings: Above Masthead"
@@ -3659,6 +3667,8 @@ msgstr "Slider Einstellungen: Oberhalb Impressum"
 #: framework/functions/global/admin/meta/entries.php:124
 msgid "Select your options to display a slider above the masthead."
 msgstr ""
+"Wählen Sie aus den Optionen aus um einen Slider oberhalb des Impressums "
+"anzuzeigen."
 
 #: framework/functions/global/admin/meta/entries.php:130
 #: framework/functions/global/admin/meta/entries.php:194
@@ -3672,6 +3682,9 @@ msgid ""
 "To activate your slider, select an option from the dropdown. To deactivate "
 "your slider, set the dropdown back to \"Deactivated.\""
 msgstr ""
+"Um Ihren Slider zu aktivieren wählen Sie bitte eine Option aus der Auswahl-"
+"Liste aus. Um Ihren Slider zu deaktivieren, setzen sie die Auswahl-Liste "
+"zurück zu \"Deaktiviert\"."
 
 #: framework/functions/global/admin/meta/entries.php:137
 #: framework/functions/global/admin/meta/entries.php:201
@@ -3684,11 +3697,13 @@ msgid ""
 "Input the URL to your .mp4 video file to display an optional background "
 "video."
 msgstr ""
+"Geben Sie die URL zu Ihrer MP4-Video-Datei für eine optionale "
+"Hintergrundvideoanzeige ein."
 
 #: framework/functions/global/admin/meta/entries.php:144
 #: framework/functions/global/admin/meta/entries.php:208
 msgid "Video Poster Image (For Mobile)"
-msgstr ""
+msgstr "Video-Plakat-Bild (für mobile Geräte)"
 
 #: framework/functions/global/admin/meta/entries.php:145
 #: framework/functions/global/admin/meta/entries.php:209
@@ -3698,6 +3713,10 @@ msgid ""
 "image for this field. To clear, delete the image URL from the text field and "
 "save your page."
 msgstr ""
+"Klicken Sie auf die Schaltfläche, um die Hintergrundbilde(er) hochzuladen, "
+"oder geben Sie sie manuell über das Textfeld ein. Das Laden mehrerer "
+"Hintergrundbilder wird einen Diashow-Effekt erzeugen. Zum Löschen, löschen "
+"Sie die Bild-URLs aus dem Textfeld und speichern Sie die Seite."
 
 #: framework/functions/global/admin/meta/entries.php:151
 #: framework/functions/global/admin/meta/entries.php:215
@@ -3746,6 +3765,8 @@ msgstr "Slider Einstellungen: Unterhalb Impressum"
 #: framework/functions/global/admin/meta/entries.php:188
 msgid "Select your options to display a slider below the masthead."
 msgstr ""
+"Wählen Sie aus den Optionen aus um einen Slider unterhalb des Impressums "
+"anzuzeigen."
 
 #: framework/functions/global/admin/meta/entries.php:257
 msgid "Portfolio Settings"
@@ -3768,6 +3789,11 @@ msgid ""
 "select. To cancel the selection of individual items, hold down \"CTRL\" or "
 "\"COMMAND\", and then click the items that you don't want to include."
 msgstr ""
+"Um mehrere nicht aufeinander folgende Seiten oder Beiträge auszuwählen, "
+"halten Sie \"Strg\" (Windows) oder \"Command\" (Mac), und klicken Sie dann "
+"auf jedes Element, das Sie auswählen möchten. Um die Auswahl von "
+"Einzelpositionen zu löschen, halten Sie die \"Strg\" oder \"Command\", und "
+"klicken Sie dann auf die Elemente, die Sie nicht wollen."
 
 #: framework/functions/global/admin/meta/entries.php:272
 msgid "Select how many columns you would like to display for your portfolio."
@@ -3844,7 +3870,7 @@ msgstr "Quellenangabe"
 
 #: framework/functions/global/admin/meta/entries.php:393
 msgid "Specify who originally said the quote."
-msgstr ""
+msgstr "Geben Sie an, wer das Zitat ursprünglich gesagt hat."
 
 #: framework/functions/global/admin/meta/entries.php:410
 msgid "Link Post Settings"
@@ -3870,6 +3896,7 @@ msgstr "Video-Beitrag Einstellungen"
 #: framework/functions/global/admin/meta/entries.php:436
 msgid "These settings enable you to embed videos into your posts."
 msgstr ""
+"Diese Einstellungen erlauben Ihnen, Videos in Ihren Beiträgen einzubinden."
 
 #: framework/functions/global/admin/meta/entries.php:442
 #: framework/functions/global/plugins/visual-composer.php:2068
@@ -3879,7 +3906,7 @@ msgstr "Seitenverhältnis"
 
 #: framework/functions/global/admin/meta/entries.php:443
 msgid "Select the aspect ratio for your video."
-msgstr ""
+msgstr "Wählen Sie das Seitenverhältnis für Ihr Video aus."
 
 #: framework/functions/global/admin/meta/entries.php:450
 #: framework/functions/global/admin/meta/entries.php:683
@@ -3919,6 +3946,7 @@ msgstr "Audio-Beitrag Einstellungen"
 #: framework/functions/global/admin/meta/entries.php:483
 msgid "These settings enable you to embed audio into your posts."
 msgstr ""
+"Diese Einstellungen erlauben Ihnen, Audio in Ihren Beiträgen einzubinden."
 
 #: framework/functions/global/admin/meta/entries.php:489
 msgid "MP3 File URL"
@@ -3934,7 +3962,7 @@ msgstr "OGA Datei-URL"
 
 #: framework/functions/global/admin/meta/entries.php:497
 msgid "The URL to the .oga or .ogg audio file."
-msgstr ""
+msgstr "Die URL zur .oga oder ogg Audio-Datei."
 
 #: framework/functions/global/admin/meta/entries.php:503
 msgid "Embedded Audio Code"
@@ -4108,6 +4136,8 @@ msgstr "Archiv Untertitel"
 #: framework/functions/global/admin/meta/taxonomies.php:81
 msgid "Enter in a value to overwrite the default subtitle of the archive page."
 msgstr ""
+"Geben Sie einen Wert an, der den Standarduntertitel der Archivseite "
+"überschreibt."
 
 #: framework/functions/global/admin/meta/taxonomies.php:42
 #: framework/functions/global/admin/meta/taxonomies.php:86
@@ -4484,7 +4514,7 @@ msgstr "Haupt-Seitenleiste"
 
 #: framework/functions/global/admin/widgets.php:56
 msgid "Appears on posts and pages that include the sidebar."
-msgstr ""
+msgstr "Erscheint auf Beiträgen und Seiten, die die Seitenleiste enthalten."
 
 #: framework/functions/global/admin/widgets.php:71
 msgid "Header "
@@ -4492,7 +4522,7 @@ msgstr "Header"
 
 #: framework/functions/global/admin/widgets.php:73
 msgid "Widgetized header area."
-msgstr ""
+msgstr "Widgetisierter Kopfzeilenbereich"
 
 #: framework/functions/global/admin/widgets.php:89
 msgid "Footer "
@@ -4500,7 +4530,7 @@ msgstr "Fusszeile"
 
 #: framework/functions/global/admin/widgets.php:91
 msgid "Widgetized footer area."
-msgstr ""
+msgstr "Widgetisierter Fusszeilenbereich"
 
 #: framework/functions/global/breadcrumbs.php:131
 msgid "Search Results for "
@@ -5172,11 +5202,11 @@ msgstr "Geben Sie die Überschrift für Ihre Meldung ein."
 
 #: framework/functions/global/plugins/visual-composer.php:881
 msgid "Select the alert style."
-msgstr ""
+msgstr "Meldungstyp auswählen."
 
 #: framework/functions/global/plugins/visual-composer.php:895
 msgid "Select to display the close button."
-msgstr ""
+msgstr "Auswählen zur Anzeige der Schliessen-Schaltfläche"
 
 #: framework/functions/global/plugins/visual-composer.php:935
 msgid "Map"
@@ -5205,7 +5235,7 @@ msgstr ""
 #: framework/functions/global/plugins/visual-composer.php:2183
 #: framework/functions/global/plugins/visual-composer.php:3044
 msgid "Code (See Notes Below)"
-msgstr ""
+msgstr "Code (siehe Anmerkungen unten)"
 
 #: framework/functions/global/plugins/visual-composer.php:945
 #: framework/functions/global/plugins/visual-composer.php:2184
@@ -5226,7 +5256,7 @@ msgstr "Kein Container"
 #: framework/functions/global/plugins/visual-composer.php:953
 #: framework/functions/global/plugins/visual-composer.php:1061
 msgid "Select to remove the container around the map."
-msgstr ""
+msgstr "Auswählen, um den Container um die Karte zu entfernen."
 
 #: framework/functions/global/plugins/visual-composer.php:993
 msgid "Google Map"
@@ -5243,7 +5273,7 @@ msgstr "Breitengrad"
 
 #: framework/functions/global/plugins/visual-composer.php:1006
 msgid "Enter in the center latitude of your map."
-msgstr ""
+msgstr "Geben Sie den Breitengrad für das Zentrum Ihrer Karte ein."
 
 #: framework/functions/global/plugins/visual-composer.php:1012
 #: framework/functions/global/plugins/visual-composer.php:1112
@@ -5252,7 +5282,7 @@ msgstr "Längengrad"
 
 #: framework/functions/global/plugins/visual-composer.php:1013
 msgid "Enter in the center longitude of your map."
-msgstr ""
+msgstr "Geben Sie den Längengrad für das Zentrum Ihrer Karte ein."
 
 #: framework/functions/global/plugins/visual-composer.php:1019
 msgid "Draggable"
@@ -5260,7 +5290,7 @@ msgstr "Verschiebbar"
 
 #: framework/functions/global/plugins/visual-composer.php:1020
 msgid "Select to allow your users to drag the map view."
-msgstr ""
+msgstr "Auswählen um Ihren Benutzern zu erlauben die Karte zu verschieben."
 
 #: framework/functions/global/plugins/visual-composer.php:1029
 msgid "Zoom Level"
@@ -5271,6 +5301,8 @@ msgid ""
 "Choose the initial zoom level of your map. This value should be between 1 "
 "and 18. 1 is fully zoomed out and 18 is right at street level."
 msgstr ""
+"Geben Sie die initiale Zoom-Stufe für die Karte an. Ein numerischer Wert von "
+"1 bis 18, wobei 1 die ganze Erde und 18 die Strasse ist."
 
 #: framework/functions/global/plugins/visual-composer.php:1036
 msgid "Zoom Control"
@@ -5278,7 +5310,7 @@ msgstr "Zoom-Steuerung"
 
 #: framework/functions/global/plugins/visual-composer.php:1037
 msgid "Select to activate the zoom control for the map."
-msgstr ""
+msgstr "Auswählen um die Zoomsteuerung für die Karte zu aktivieren."
 
 #: framework/functions/global/plugins/visual-composer.php:1046
 msgid "Height"
@@ -5297,7 +5329,7 @@ msgstr "Benutzerdefinierte Farbe"
 
 #: framework/functions/global/plugins/visual-composer.php:1054
 msgid "Choose an optional custom color for your map."
-msgstr ""
+msgstr "Wählen Sie eine optionale benutzerdefinierte Farbe für Ihre Karte."
 
 #: framework/functions/global/plugins/visual-composer.php:1094
 msgid "Google Map Marker"
@@ -5305,7 +5337,7 @@ msgstr "Google Map Marker"
 
 #: framework/functions/global/plugins/visual-composer.php:1099
 msgid "Place a location marker on your Google map"
-msgstr ""
+msgstr "Legen Sie eine Ortsmarkierung auf Ihrer Google-Karte platzieren"
 
 #: framework/functions/global/plugins/visual-composer.php:1106
 msgid "Enter in the latitude of your marker."
@@ -5397,11 +5429,11 @@ msgstr "Form"
 
 #: framework/functions/global/plugins/visual-composer.php:1270
 msgid "Select the button shape."
-msgstr ""
+msgstr "﻿Wählen Sie die Schaltflächen-Form."
 
 #: framework/functions/global/plugins/visual-composer.php:1282
 msgid "Select the button size."
-msgstr ""
+msgstr "﻿Wählen Sie die Schaltflächen-Grösse."
 
 #: framework/functions/global/plugins/visual-composer.php:1296
 #: framework/functions/global/plugins/visual-composer.php:1637
@@ -5424,7 +5456,7 @@ msgstr ""
 #: framework/functions/global/plugins/visual-composer.php:3286
 #: framework/functions/global/plugins/visual-composer.php:3608
 msgid "Marketing Circle"
-msgstr ""
+msgstr "Marketing-Circle"
 
 #: framework/functions/global/plugins/visual-composer.php:1319
 #: framework/functions/global/plugins/visual-composer.php:3287
@@ -5438,7 +5470,7 @@ msgstr "Nur Ion"
 
 #: framework/functions/global/plugins/visual-composer.php:1329
 msgid "Select if you are only using an icon in your button."
-msgstr ""
+msgstr "Auswählen, wenn Sie nur ein Symbol in der Schaltfläche nutzen."
 
 #: framework/functions/global/plugins/visual-composer.php:1338
 #: framework/functions/global/plugins/visual-composer.php:1673
@@ -5481,7 +5513,7 @@ msgstr "Ziel"
 
 #: framework/functions/global/plugins/visual-composer.php:1353
 msgid "Select to open your button link in a new window."
-msgstr ""
+msgstr "Auswählen, um den Schaltflächen-Link in einem neuen Fenster zu öffnen."
 
 #: framework/functions/global/plugins/visual-composer.php:1362
 #: framework/functions/global/plugins/visual-composer.php:1697
@@ -5559,11 +5591,11 @@ msgstr "Block-Raster"
 
 #: framework/functions/global/plugins/visual-composer.php:1514
 msgid "Include a block grid container in your content"
-msgstr ""
+msgstr "Ein Block-Raster in Ihrem Inhalt einbinden"
 
 #: framework/functions/global/plugins/visual-composer.php:1522
 msgid "Select how many block grid items you want per row."
-msgstr ""
+msgstr "Wählen Sie aus, wie viele Block-Raster Elemente SIe pro Zeile wollen."
 
 #: framework/functions/global/plugins/visual-composer.php:1565
 msgid "Block Grid Item"
@@ -5571,7 +5603,7 @@ msgstr "Block-Raster-Element"
 
 #: framework/functions/global/plugins/visual-composer.php:1570
 msgid "Include a block grid item in your block grid"
-msgstr ""
+msgstr "Ein Block-Raster-Element in Ihrem Block-Raster einbinden"
 
 #: framework/functions/global/plugins/visual-composer.php:1615
 msgid "Image"
@@ -5579,11 +5611,11 @@ msgstr "Bild"
 
 #: framework/functions/global/plugins/visual-composer.php:1620
 msgid "Include an image in your content"
-msgstr ""
+msgstr "Ein Bild in Ihrem Inhalt einbinden."
 
 #: framework/functions/global/plugins/visual-composer.php:1625
 msgid "Select the image style."
-msgstr ""
+msgstr "Wählen Sie den Bild-Stil."
 
 #: framework/functions/global/plugins/visual-composer.php:1638
 msgid "Optionally float the image."
@@ -5604,7 +5636,7 @@ msgstr "Alt"
 
 #: framework/functions/global/plugins/visual-composer.php:1657
 msgid "Enter in the alt text for your image."
-msgstr ""
+msgstr "Geben Sie den alt. Text für Ihr Bild ein"
 
 #: framework/functions/global/plugins/visual-composer.php:1663
 msgid "Link"
@@ -5658,7 +5690,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:1839
 msgid "Icon List Item"
-msgstr ""
+msgstr "Icon Liste Element"
 
 #: framework/functions/global/plugins/visual-composer.php:1844
 msgid "Include an icon list item in your icon list"
@@ -5666,7 +5698,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:1859
 msgid "Select your icon."
-msgstr ""
+msgstr "Wählen Sie Ihr Icon aus."
 
 #: framework/functions/global/plugins/visual-composer.php:2011
 msgid "Columnize"
@@ -5696,7 +5728,7 @@ msgstr "M4V"
 
 #: framework/functions/global/plugins/visual-composer.php:2083
 msgid "Include and .m4v version of your video."
-msgstr ""
+msgstr "Fügen Sie eine .mp4 Ihres Videos hinzu."
 
 #: framework/functions/global/plugins/visual-composer.php:2089
 msgid "OGV"
@@ -5706,6 +5738,8 @@ msgstr "OGV"
 msgid ""
 "Include and .ogv version of your video for additional native browser support."
 msgstr ""
+"Fügen Sie eine .ogv Version Ihres Videos für erweiterte native Browser-"
+"Unterstützung hinzu."
 
 #: framework/functions/global/plugins/visual-composer.php:2096
 msgid "Poster Image"
@@ -5723,6 +5757,8 @@ msgstr "Erweiterte Bedienelemente"
 #: framework/functions/global/plugins/visual-composer.php:2104
 msgid "Select to enable advanced controls on your self-hosted video."
 msgstr ""
+"Aushwählen, um erweiterte Steuerelemente auf Ihrem selbst gehosteten Video "
+"zu ermöglichen."
 
 #: framework/functions/global/plugins/visual-composer.php:2113
 msgid "Hide Controls"
@@ -5731,6 +5767,7 @@ msgstr "Bedienelemente ausblenden"
 #: framework/functions/global/plugins/visual-composer.php:2114
 msgid "Select to hide the controls on your self-hosted video."
 msgstr ""
+"Auswählen, um die Bedienelemente des selbst gehosteten Videos verstecken."
 
 #: framework/functions/global/plugins/visual-composer.php:2123
 msgid "Autoplay"
@@ -5747,7 +5784,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:2174
 msgid "Video (Embedded)"
-msgstr ""
+msgstr "Video (Eingebettet)"
 
 #: framework/functions/global/plugins/visual-composer.php:2246
 msgid "Accordion"
@@ -5793,7 +5830,7 @@ msgstr "Registerkarte-Navigation"
 
 #: framework/functions/global/plugins/visual-composer.php:2368
 msgid "Include a tab nav into your content"
-msgstr ""
+msgstr "Einen Registerkarte-Navigation in Ihrem Inhalt einbiden"
 
 #: framework/functions/global/plugins/visual-composer.php:2375
 msgid "Tab Nav Items Per Row"
@@ -5814,7 +5851,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:2431
 msgid "Tab Nav Item"
-msgstr ""
+msgstr "Registerkarte-Navigation Element"
 
 #: framework/functions/global/plugins/visual-composer.php:2436
 msgid "Include a tab nav item into your tab nav"
@@ -5867,7 +5904,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:2649
 msgid "Include a slider in your content"
-msgstr ""
+msgstr "Einen Slider in Ihrem Inhalt einbiden"
 
 #: framework/functions/global/plugins/visual-composer.php:2656
 msgid "Animation"
@@ -5875,7 +5912,7 @@ msgstr "Animation"
 
 #: framework/functions/global/plugins/visual-composer.php:2657
 msgid "Select your slider animation."
-msgstr ""
+msgstr "Wählen Sie Ihre Slider-Animation aus."
 
 #: framework/functions/global/plugins/visual-composer.php:2667
 msgid "Slide Time"
@@ -5911,7 +5948,7 @@ msgstr "Bedienelemente-Navigation"
 
 #: framework/functions/global/plugins/visual-composer.php:2704
 msgid "Select to display the control navigation."
-msgstr ""
+msgstr "Auswählen um die Navigation-Bedienelemente anzuzeigen"
 
 #: framework/functions/global/plugins/visual-composer.php:2713
 msgid "Previous/Next Navigation"
@@ -5919,7 +5956,7 @@ msgstr "Vor/Zurück Navigation"
 
 #: framework/functions/global/plugins/visual-composer.php:2714
 msgid "Select to display the previous/next navigation."
-msgstr ""
+msgstr "Aushwählen um die Vor/Zurück Navigation anzuzeigen"
 
 #: framework/functions/global/plugins/visual-composer.php:2724
 msgid "Select to remove the container from your slider."
@@ -5939,7 +5976,7 @@ msgstr "Schützen"
 
 #: framework/functions/global/plugins/visual-composer.php:2819
 msgid "Protect content from non logged in users"
-msgstr ""
+msgstr "Schützen Sie Ihren Inhalt vor nicht angemeldeten Benutzern"
 
 #: framework/functions/global/plugins/visual-composer.php:2862
 msgid "Recent Posts"
@@ -5947,7 +5984,7 @@ msgstr "Letzte Beiträge"
 
 #: framework/functions/global/plugins/visual-composer.php:2867
 msgid "Display your most recent posts"
-msgstr ""
+msgstr "Ihre neuesten Beiträge anzeigen"
 
 #: framework/functions/global/plugins/visual-composer.php:2871
 msgid "Post Type"
@@ -5963,7 +6000,7 @@ msgstr "Anzahl Beiträge"
 
 #: framework/functions/global/plugins/visual-composer.php:2883
 msgid "Select how many posts to display."
-msgstr ""
+msgstr "Wählen Sie wie viele Beiträge angezigt werden sollen."
 
 #: framework/functions/global/plugins/visual-composer.php:2895
 msgid "Offset"
@@ -5987,11 +6024,11 @@ msgstr ""
 #: framework/functions/global/plugins/visual-composer.php:2909
 #: framework/functions/global/plugins/visual-composer.php:3473
 msgid "Orientation"
-msgstr ""
+msgstr "Ausrichtung"
 
 #: framework/functions/global/plugins/visual-composer.php:2910
 msgid "Select the orientation or your recent posts."
-msgstr ""
+msgstr "Wählen Sie die Ausrichtung hrer neuesten Beiträge."
 
 #: framework/functions/global/plugins/visual-composer.php:2920
 msgid "Remove Featured Image"
@@ -6028,7 +6065,7 @@ msgstr "MP3"
 
 #: framework/functions/global/plugins/visual-composer.php:2981
 msgid "Include and .mp3 version of your audio."
-msgstr ""
+msgstr "Fügen Sie eine .mp3 Ihres Audio hinzu."
 
 #: framework/functions/global/plugins/visual-composer.php:2987
 msgid "OGA"
@@ -6038,6 +6075,8 @@ msgstr "OGA"
 msgid ""
 "Include and .oga version of your audio for additional native browser support."
 msgstr ""
+"Fügen Sie eine .oga Version Ihres Audios für erweiterte native Browser-"
+"Unterstützung hinzu."
 
 #: framework/functions/global/plugins/visual-composer.php:2995
 msgid "Select to enable advanced controls on your self-hosted audio."
@@ -6326,7 +6365,7 @@ msgstr "Facebook"
 
 #: framework/functions/global/plugins/visual-composer.php:3684
 msgid "Select to activate the Facebook sharing link."
-msgstr ""
+msgstr "Auswählen um Teilen auf Facebook zu aktivieren"
 
 #: framework/functions/global/plugins/visual-composer.php:3693
 msgid "Twitter"
@@ -6334,7 +6373,7 @@ msgstr "Twitter"
 
 #: framework/functions/global/plugins/visual-composer.php:3694
 msgid "Select to activate the Twitter sharing link."
-msgstr ""
+msgstr "Auswählen um Teilen auf Twitter zu aktivieren"
 
 #: framework/functions/global/plugins/visual-composer.php:3703
 msgid "Google Plus"
@@ -6378,7 +6417,7 @@ msgstr "Inhaltsverzeichnis"
 
 #: framework/functions/global/plugins/visual-composer.php:3789
 msgid "Include a table of contents in your content"
-msgstr ""
+msgstr "Fügen Sie ein Inhaltsverzeichnis zu Ihren Inhalt hinzu"
 
 #: framework/functions/global/plugins/visual-composer.php:3797
 msgid "Set the title of the table of contents."
@@ -6396,7 +6435,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:3859
 msgid "Table of Contents Item"
-msgstr ""
+msgstr "Inhaltsverzeichnis-Element"
 
 #: framework/functions/global/plugins/visual-composer.php:3864
 msgid "Include a table of contents item"
@@ -6476,7 +6515,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:4204
 msgid "Responsive Text"
-msgstr ""
+msgstr "Responsiver Text"
 
 #: framework/functions/global/plugins/visual-composer.php:4209
 msgid "Include responsive text in your content"
@@ -6646,7 +6685,7 @@ msgstr ""
 #: framework/functions/global/plugins/visual-composer.php:4513
 #: framework/functions/global/plugins/visual-composer.php:4668
 msgid "Padding Top"
-msgstr ""
+msgstr "Innenabstand Oben"
 
 #: framework/functions/global/plugins/visual-composer.php:4514
 #: framework/functions/global/plugins/visual-composer.php:4669
@@ -6656,7 +6695,7 @@ msgstr ""
 #: framework/functions/global/plugins/visual-composer.php:4522
 #: framework/functions/global/plugins/visual-composer.php:4677
 msgid "Padding Bottom"
-msgstr ""
+msgstr "Innenabstand Unten"
 
 #: framework/functions/global/plugins/visual-composer.php:4523
 #: framework/functions/global/plugins/visual-composer.php:4678
@@ -6728,7 +6767,7 @@ msgstr ""
 
 #: framework/functions/global/plugins/visual-composer.php:4600
 msgid "Marginless Columns"
-msgstr ""
+msgstr "Spalten ohne Aussenabstand"
 
 #: framework/functions/global/plugins/visual-composer.php:4601
 msgid "Select to remove the spacing between columns."
@@ -6898,6 +6937,8 @@ msgid ""
 "Reply<span class=\"comment-reply-link-after\"><i class=\"x-icon-reply\" data-"
 "x-icon=\"&#xf112;\"></i></span>"
 msgstr ""
+"Antworten<span class=\"comment-reply-link-after\"><i class=\"x-icon-reply\" "
+"data-x-icon=\"&#xf112;\"></i></span>"
 
 #: framework/functions/icon.php:97 framework/functions/integrity.php:190
 msgid "Post<br>Author"
@@ -6906,7 +6947,7 @@ msgstr "Beitrag<br>Autor"
 #: framework/functions/icon.php:119 framework/functions/integrity.php:207
 #: framework/functions/renew.php:223
 msgid "<i class=\"x-icon-edit\" data-x-icon=\"&#xf044;\"></i> Edit"
-msgstr ""
+msgstr "<i class=\"x-icon-edit\" data-x-icon=\"&#xf044;\"></i> Bearbeiten"
 
 #: framework/views/ethos/_landmark-header.php:53
 #: framework/views/integrity/_landmark-header.php:25
@@ -6961,7 +7002,7 @@ msgstr "Archive der Beiträge nach Tag"
 #: framework/views/renew/content-link.php:24
 #, php-format
 msgid "Shared link from post: \"%s\""
-msgstr ""
+msgstr "Link geteilt vom Beitrag \"%s\" aus"
 
 #: framework/views/ethos/wp-comments.php:48
 #: framework/views/icon/wp-comments.php:42
@@ -7076,7 +7117,7 @@ msgstr "Sie haben das Internet gesprengt! "
 #: framework/views/integrity/_landmark-header.php:107
 #: framework/views/integrity/_landmark-header.php:114
 msgid "Below you'll find a list of all posts from "
-msgstr ""
+msgstr "Unten finden Sie eine Liste aller Beiträge von "
 
 #: framework/views/renew/wp-comments.php:32
 #, php-format
