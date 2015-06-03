@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: X\n"
 "POT-Creation-Date: 2015-06-01 19:48+0100\n"
-"PO-Revision-Date: 2015-06-02 21:35+0100\n"
+"PO-Revision-Date: 2015-06-03 08:39+0100\n"
 "Last-Translator: Linus Metzler <linus.metzler@gmail.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -2762,9 +2762,7 @@ msgstr "Seitenbreite (%)"
 
 #: framework/functions/global/admin/customizer/register.php:571
 msgid "Content Layout"
-msgstr ""
-"Wählen Sie ein Layout, wie Inhalte auf Seiten mit Portfolio-Artikeln "
-"aussehen sollen."
+msgstr "Inhalt-Layout"
 
 #: framework/functions/global/admin/customizer/register.php:574
 msgid "Content Width (%)"
@@ -2823,7 +2821,7 @@ msgstr "Logo Schrift"
 #: framework/functions/global/admin/customizer/register.php:632
 #: framework/functions/global/admin/customizer/register.php:635
 msgid "Logo Font Color"
-msgstr "Benutzerdefinierte Farbe"
+msgstr "Logo Schriftfarbe"
 
 #: framework/functions/global/admin/customizer/register.php:638
 msgid "Logo Font Size (px)"
@@ -2831,7 +2829,7 @@ msgstr "Logo Schriftgröße (px)"
 
 #: framework/functions/global/admin/customizer/register.php:641
 msgid "Logo Font Weight"
-msgstr "Gewicht"
+msgstr "Logo Schriftstärke"
 
 #: framework/functions/global/admin/customizer/register.php:644
 msgid "Logo Letter Spacing (px)"
@@ -3721,42 +3719,46 @@ msgstr ""
 #: framework/functions/global/admin/meta/entries.php:151
 #: framework/functions/global/admin/meta/entries.php:215
 msgid "Enable Scroll Bottom Anchor"
-msgstr ""
+msgstr "Nach unten scollen Anker aktivieren"
 
 #: framework/functions/global/admin/meta/entries.php:152
 #: framework/functions/global/admin/meta/entries.php:216
 msgid "Select to enable the scroll bottom anchor for your slider."
 msgstr ""
+"Auswählen, um den nach unten scrollen Anker für Ihren Slider zu aktivieren."
 
 #: framework/functions/global/admin/meta/entries.php:158
 #: framework/functions/global/admin/meta/entries.php:222
 msgid "Scroll Bottom Anchor Alignment"
-msgstr ""
+msgstr "Nach unten scollen Anker Ausrichtung"
 
 #: framework/functions/global/admin/meta/entries.php:159
 #: framework/functions/global/admin/meta/entries.php:223
 msgid "Select the alignment of the scroll bottom anchor for your slider."
 msgstr ""
+"Die Ausrichtung des nach unten scrollen Ankers für Ihren Slider auswählen"
 
 #: framework/functions/global/admin/meta/entries.php:166
 #: framework/functions/global/admin/meta/entries.php:230
 msgid "Scroll Bottom Anchor Color"
-msgstr ""
+msgstr "Nach unten scollen Anker Farbe"
 
 #: framework/functions/global/admin/meta/entries.php:167
 #: framework/functions/global/admin/meta/entries.php:231
 msgid "Select the color of the scroll bottom anchor for your slider."
-msgstr ""
+msgstr "Die Farbe des nach unten scrollen Ankers für Ihren Slider auswählen"
 
 #: framework/functions/global/admin/meta/entries.php:173
 #: framework/functions/global/admin/meta/entries.php:237
 msgid "Scroll Bottom Anchor Color Hover"
-msgstr ""
+msgstr "Scroll Bottom Anchor Farbe bei Mouseover"
 
 #: framework/functions/global/admin/meta/entries.php:174
 #: framework/functions/global/admin/meta/entries.php:238
 msgid "Select the hover color of the scroll bottom anchor for your slider."
 msgstr ""
+"Die Farbe des nach unten scrollen Ankers bei Mousover für Ihren Slider "
+"auswählen"
 
 #: framework/functions/global/admin/meta/entries.php:187
 msgid "Slider Settings: Below Masthead"
@@ -3807,6 +3809,11 @@ msgid ""
 "already selected \"Content Left, Sidebar Right\" or \"Sidebar Left, Content "
 "Right\" for your \"Content Layout\" in the Customizer."
 msgstr ""
+"Wählen Sie das Layout welches Sie für Ihr Portfolio wünschen. DIe \"Verwende "
+"globales Inhaltslayout\" Option erlaubt Ihnen, die Seitenleiste "
+"beizubehalten, falls Sie bereits \"Inhalt links, Seitenleiste rechts\" oder "
+"\"Seitenleiste links, Inhalt rechts\" als \"Inhalt-Layout\" im Customizer "
+"ausgewählt haben."
 
 #: framework/functions/global/admin/meta/entries.php:288
 msgid ""
@@ -3938,6 +3945,9 @@ msgid ""
 "Vimeo, or Wistia, paste the embed code here. This field will override the "
 "above."
 msgstr ""
+"Falls Sie etwas Anderes als selbst gehostetes Video, wie z.B. YouTube, Vimeo "
+"oder Wisita, verwenden, fügen Sie den Einbinden-Code hier ein. Dieses Feld "
+"wird das obige überschreiben."
 
 #: framework/functions/global/admin/meta/entries.php:482
 msgid "Audio Post Settings"
@@ -3973,6 +3983,9 @@ msgid ""
 "If you are using something other than self hosted audio such as Soundcloud "
 "paste the embed code here. This field will override the above."
 msgstr ""
+"Falls Sie etwas Anderes als selbst gehosteter Audio, wie z.B. Soundcloud, "
+"verwenden, fügen Sie den Einbinden-Code hier ein. Dieses Feld wird das obige "
+"überschreiben."
 
 #: framework/functions/global/admin/meta/entries.php:523
 msgid "Ethos Post Settings"
@@ -3988,51 +4001,60 @@ msgstr ""
 
 #: framework/functions/global/admin/meta/entries.php:530
 msgid "Index Featured Post Layout"
-msgstr ""
+msgstr "Layout für den hervorgehobenen Beitrag im Index"
 
 #: framework/functions/global/admin/meta/entries.php:531
 msgid "Make the featured image of this post fullwidth on the blog index page."
 msgstr ""
+"Setzt das Beitragsbild dieses Beitrags auf volle Breite auf der Index-Seite"
 
 #: framework/functions/global/admin/meta/entries.php:537
 msgid "Index Featured Post Size"
-msgstr ""
+msgstr "Grösse für den hervorgehobenen Beitrag im Index"
 
 #: framework/functions/global/admin/meta/entries.php:538
 msgid ""
 "If the \"Index Featured Post Layout\" option above is selected, select a "
 "size for the output."
 msgstr ""
+"Falls die obige \"Layout für den hervorgehobenen Beitrag im Index\" Option "
+"aktiviert ist, wählen Sie eine Grösse für die Ausgabe aus."
 
 #: framework/functions/global/admin/meta/entries.php:545
 msgid "Post Carousel Display"
-msgstr ""
+msgstr "Anzeige Beitrags-Karussell"
 
 #: framework/functions/global/admin/meta/entries.php:546
 msgid ""
 "Display this post in the Post Carousel if you have \"Featured\" selected in "
 "the Customizer."
 msgstr ""
+"Diesen Beitrag im Beitrags-Karussell anzeigen falls Sie \"Hervorgehoben\" im "
+"Customizer ausgwählt haben."
 
 #: framework/functions/global/admin/meta/entries.php:552
 msgid "Post Slider Display &ndash; Blog"
-msgstr ""
+msgstr "Anzeige Beitrags-Slider &ndash; Blog"
 
 #: framework/functions/global/admin/meta/entries.php:553
 msgid ""
 "Display this post in the Blog Post Slider if you have \"Featured\" selected "
 "in the Customizer."
 msgstr ""
+"Diesen Beitrag im Blog-Beitrags-Slider anzeigen falls Sie \"Hervorgehoben\" "
+"im Customizer ausgwählt haben."
 
 #: framework/functions/global/admin/meta/entries.php:559
 msgid "Post Slider Display &ndash; Archives"
-msgstr ""
+msgstr "Anzeige Beitrags-Slider &ndash; Archive"
 
 #: framework/functions/global/admin/meta/entries.php:560
 msgid ""
 "Display this post in the Archives Post Slider if you have \"Featured\" "
 "selected in the Customizer."
 msgstr ""
+"Diesen Beitrag im Archiv-Beitrags-Slider anzeigen falls Sie \"Hervorgehoben"
+"\" im Customizer ausgwählt haben."
 
 #: framework/functions/global/admin/meta/entries.php:585
 msgid "Portfolio Item Settings"
@@ -4053,6 +4075,10 @@ msgid ""
 "\" is selected then the first page with the \"Layout - Portfolio\" template "
 "assigned to it will be used."
 msgstr ""
+"Weisen Sie diesem Portfolio-Element eine übergeordnete Portfolio-Seite zu. "
+"Dies wird an verschiedenen Stellen im Theme verwendet, so z.B. in der "
+"Brotkrümmelnavigation. Falls \"Standard\" ausgewählt ist, dann wird die "
+"erste Seite mit der \"Layout - Portfolio\" Vorlage verwendet."
 
 #: framework/functions/global/admin/meta/entries.php:613
 msgid "Media Type"
@@ -4078,6 +4104,8 @@ msgid ""
 "Select \"Media\" if you would like to show your video or gallery on the "
 "index page in place of the featured image."
 msgstr ""
+"Wählen Sie \"Medien\", wenn Sie anstelle des hervorgehobenen Bildes auf der "
+"Indexseite ein Video oder eine Gallerie anzeigen möchten."
 
 #: framework/functions/global/admin/meta/entries.php:629
 msgid "Project Link"
@@ -4086,7 +4114,7 @@ msgstr "Projekt Link"
 #: framework/functions/global/admin/meta/entries.php:630
 msgid ""
 "Provide an external link to the project you worked on if one is available."
-msgstr ""
+msgstr "Geben Sie einen externen Link, falls verfügbar, zu Ihrem Projekt an."
 
 #: framework/functions/global/admin/meta/entries.php:668
 msgid "Video Portfolio Item Settings"
@@ -4107,14 +4135,20 @@ msgid ""
 "If selecting \"Video,\" choose the aspect ratio you would like for your "
 "video."
 msgstr ""
+"Falls Sie \"Video\" auswählen, wählen Sie das Seitenverhältnis für Ihr Video "
+"aus."
 
 #: framework/functions/global/admin/meta/entries.php:684
 msgid "If selecting \"Video,\" place the URL to your .m4v video file here."
 msgstr ""
+"Falls Sie \"Video\" auswählen, geben Sie die URL zu Ihrer .m4v Video-Datei "
+"hier an."
 
 #: framework/functions/global/admin/meta/entries.php:691
 msgid "If selecting \"Video,\" place the URL to your .ogv video file here."
 msgstr ""
+"Falls Sie \"Video\" auswählen, geben Sie die URL zu Ihrer .ogv Video-Datei "
+"hier an."
 
 #: framework/functions/global/admin/meta/taxonomies.php:32
 #: framework/functions/global/admin/meta/taxonomies.php:68
@@ -4149,6 +4183,8 @@ msgstr "Akzent"
 #: framework/functions/global/admin/meta/taxonomies.php:90
 msgid "Choose an accent color to be used for certain design elements."
 msgstr ""
+"Wählen Sie eine Akzentfarbe, welche für bestimmte Designelemente verwendet "
+"wird."
 
 #: framework/functions/global/admin/setup.php:82
 msgid "Primary Menu"
@@ -4758,6 +4794,10 @@ msgid ""
 "Turning this off will make Visual Composer oparate natively without any "
 "overwriting being done."
 msgstr ""
+"Aktivieren Sie die Integration von X mit Visual Composer. Dies erlaubt dem "
+"Theme einige Visual Composer Shortcodes zu überschreiben und eigene "
+"Shortcodes bereitzustellen. Wenn Sie dies deaktivieren, wird sich Visual "
+"Comoser nativ verhalten und nichts wird überschreiben."
 
 #: framework/functions/global/plugins/visual-composer.php:166
 msgid "Removes an uncommonly used metabox from the Wordpress Post editor."
@@ -4775,7 +4815,7 @@ msgstr "Empfohlen, falls Sie native Visual Composer Elemente verstecken."
 
 #: framework/functions/global/plugins/visual-composer.php:178
 msgid "Hides access to the Frontend editor."
-msgstr ""
+msgstr "Zugriff zum Frontend-Editor verstecken."
 
 #: framework/functions/global/plugins/visual-composer.php:182
 msgid ""
@@ -4803,7 +4843,7 @@ msgstr "Struktur"
 
 #: framework/functions/global/plugins/visual-composer.php:541
 msgid "Place a horizontal rule in your content"
-msgstr ""
+msgstr "Eine horizontale Linie in Ihrem Inhalt platzieren"
 
 #: framework/functions/global/plugins/visual-composer.php:545
 #: framework/functions/global/plugins/visual-composer.php:593
@@ -5068,7 +5108,7 @@ msgstr "Abstand"
 
 #: framework/functions/global/plugins/visual-composer.php:581
 msgid "Insert a vertical gap in your content"
-msgstr ""
+msgstr "Eine vertikale Lücke in Ihren Inhalt einfügen"
 
 #: framework/functions/global/plugins/visual-composer.php:585
 #: framework/functions/global/plugins/visual-composer.php:1281
@@ -5080,6 +5120,8 @@ msgid ""
 "Enter in the size of your gap. Pixels, ems, and percentages are all valid "
 "units of measurement."
 msgstr ""
+"Geben Sie die Grösse Ihrer Lücke an. Pixel, ems und Prozentangaben sind alle "
+"gültige Masseinheiten."
 
 #: framework/functions/global/plugins/visual-composer.php:624
 msgid "Clear"
@@ -5087,7 +5129,7 @@ msgstr "Aufheben"
 
 #: framework/functions/global/plugins/visual-composer.php:629
 msgid "Clear floated elements in your content"
-msgstr ""
+msgstr "Alle gefloateten Elemente in Ihrem Inhalt aufheben"
 
 #: framework/functions/global/plugins/visual-composer.php:723
 msgid "Blockquote"
@@ -5095,7 +5137,7 @@ msgstr "Zitat"
 
 #: framework/functions/global/plugins/visual-composer.php:728
 msgid "Include a blockquote in your content"
-msgstr ""
+msgstr "Fügen Sie ein Zitat zu Ihrem Inhalt hinzu"
 
 #: framework/functions/global/plugins/visual-composer.php:732
 #: framework/functions/global/plugins/visual-composer.php:799
@@ -5146,7 +5188,7 @@ msgstr "Zitieren"
 #: framework/functions/global/plugins/visual-composer.php:741
 #: framework/functions/global/plugins/visual-composer.php:808
 msgid "Cite the person you are quoting."
-msgstr ""
+msgstr "Geben Sie die Person an, die Sie zitieren."
 
 #: framework/functions/global/plugins/visual-composer.php:747
 #: framework/functions/global/plugins/visual-composer.php:814
@@ -5160,23 +5202,24 @@ msgstr "Ausrichtung"
 
 #: framework/functions/global/plugins/visual-composer.php:748
 msgid "Select the alignment of the blockquote."
-msgstr ""
+msgstr "Wählen Sie die Ausrichtung des Zitats."
 
+# http://dict.leo.org/forum/viewWrongentry.php?idThread=1222610&idForum=6&lang=de&lp=ende
 #: framework/functions/global/plugins/visual-composer.php:790
 msgid "Pullquote"
-msgstr ""
+msgstr "Herausgezogenes Zitat"
 
 #: framework/functions/global/plugins/visual-composer.php:795
 msgid "Include a pullquote in your content"
-msgstr ""
+msgstr "Fügen Sie ein herausgezogenes Zitat zu Ihrem Inhalt hinzu"
 
 #: framework/functions/global/plugins/visual-composer.php:815
 msgid "Select the alignment of the pullquote."
-msgstr ""
+msgstr "Wählen Sie die Ausrichtung des herausgezogenen Zitats."
 
 #: framework/functions/global/plugins/visual-composer.php:856
 msgid "Alert"
-msgstr "Achtung"
+msgstr "Meldung"
 
 #: framework/functions/global/plugins/visual-composer.php:860
 #: framework/functions/global/plugins/visual-composer.php:1147
@@ -5189,7 +5232,7 @@ msgstr "Information"
 
 #: framework/functions/global/plugins/visual-composer.php:861
 msgid "Provide information to users with alerts"
-msgstr ""
+msgstr "Stellen Sie Benutzern Informationen mittels Meldungen bereit"
 
 #: framework/functions/global/plugins/visual-composer.php:873
 #: framework/functions/global/plugins/visual-composer.php:1152
@@ -5229,7 +5272,7 @@ msgstr "Medien"
 
 #: framework/functions/global/plugins/visual-composer.php:940
 msgid "Embed a map from a third-party provider"
-msgstr ""
+msgstr "Binden Sie eine Karte von einem Drittanbieter ein"
 
 #: framework/functions/global/plugins/visual-composer.php:944
 #: framework/functions/global/plugins/visual-composer.php:2183
@@ -5244,6 +5287,8 @@ msgid ""
 "Switch to the \"text\" editor and do not place anything else here other than "
 "your &lsaquo;iframe&rsaquo; or &lsaquo;embed&rsaquo; code."
 msgstr ""
+"Wechseln Sie in den \"Text\" Editor und geben Sie hier nichts anderes hier "
+"ausser Ihrem &lt;iframe&gt; und &lt;embed&gt; Code ein."
 
 #: framework/functions/global/plugins/visual-composer.php:952
 #: framework/functions/global/plugins/visual-composer.php:1060
@@ -5322,6 +5367,9 @@ msgid ""
 "responsive, proportional unit will be used. Any type of unit is acceptable "
 "(e.g. 450px, 30em, 40%, et cetera)."
 msgstr ""
+"Wählen Sie eine optionale Höhe für Ihre Karte. Wenn keine Höhe gewählt wird, "
+"wird eine responsive, proportionale Einheit verwendet. Jede Art von Einheit "
+"ist akzeptabel (z.B. 450px, 30em, 40%, etc.)."
 
 #: framework/functions/global/plugins/visual-composer.php:1053
 msgid "Custom Color"
@@ -5357,6 +5405,8 @@ msgid ""
 "Optional description text to appear in a popup when your marker is clicked "
 "on."
 msgstr ""
+"Optionaler Beschreibungstext der in einem Popup angezeigt wird, wenn Ihr "
+"Marker angeklickt wird."
 
 #: framework/functions/global/plugins/visual-composer.php:1126
 msgid "Custom Marker Image"
@@ -5366,6 +5416,8 @@ msgstr "Bild für benutzerdefinierten Marker"
 msgid ""
 "Utilize a custom marker image instead of the default provided by Google."
 msgstr ""
+"Verwenden Sie benutzerdefiniertes Bild für den Marker anstelle des von "
+"Google bereitgestellten Bildes."
 
 #: framework/functions/global/plugins/visual-composer.php:1143
 msgid "Skill Bar"
@@ -5373,11 +5425,11 @@ msgstr "Kompetenzen-Balken"
 
 #: framework/functions/global/plugins/visual-composer.php:1148
 msgid "Include an informational skill bar"
-msgstr ""
+msgstr "Einen informationellen Kompetenz-Balken hinzufügen"
 
 #: framework/functions/global/plugins/visual-composer.php:1153
 msgid "Enter the heading of your skill bar."
-msgstr ""
+msgstr "Geben Sie die Überschrift für Ihren Kompetenzen-Balken ein"
 
 #: framework/functions/global/plugins/visual-composer.php:1159
 msgid "Percent"
@@ -5388,6 +5440,8 @@ msgid ""
 "Enter the percentage of your skill and be sure to include the percentage "
 "sign (i.e. 90%)."
 msgstr ""
+"Geben Sie den Prozentsatz Ihrer Kompetenz ein, und achten Sie darauf, dass "
+"das Prozentzeichen (z.B. 90%) enthalten ist."
 
 #: framework/functions/global/plugins/visual-composer.php:1166
 msgid "Bar Text"
@@ -5397,6 +5451,8 @@ msgstr "Leistentext"
 msgid ""
 "Enter in some alternate text in place of the percentage inside the skill bar."
 msgstr ""
+"Geben Sie einen alternativen Text anstelle der Prozentsatz innnerhalb des "
+"Kompetenzen-Balkens ein"
 
 #: framework/functions/global/plugins/visual-composer.php:1204
 msgid "Code"
@@ -5404,7 +5460,7 @@ msgstr "Code"
 
 #: framework/functions/global/plugins/visual-composer.php:1209
 msgid "Add a block of example code to your content"
-msgstr ""
+msgstr "Einen Block mit Beispielcode zu Ihrem Inhalt hinzufügen"
 
 #: framework/functions/global/plugins/visual-composer.php:1252
 msgid "Button"
@@ -5421,7 +5477,7 @@ msgstr "Marketing"
 
 #: framework/functions/global/plugins/visual-composer.php:1257
 msgid "Add a clickable button to your content"
-msgstr ""
+msgstr "Eine anklickbare Schaltfläche hinzufügen"
 
 #: framework/functions/global/plugins/visual-composer.php:1269
 msgid "Shape"
@@ -5438,11 +5494,11 @@ msgstr "﻿Wählen Sie die Schaltflächen-Grösse."
 #: framework/functions/global/plugins/visual-composer.php:1296
 #: framework/functions/global/plugins/visual-composer.php:1637
 msgid "Float"
-msgstr ""
+msgstr "Float"
 
 #: framework/functions/global/plugins/visual-composer.php:1297
 msgid "Optionally float the button."
-msgstr ""
+msgstr "Optional, die Schaltfläche fliessen lassen."
 
 #: framework/functions/global/plugins/visual-composer.php:1308
 msgid "Block"
@@ -5450,7 +5506,7 @@ msgstr "Block"
 
 #: framework/functions/global/plugins/visual-composer.php:1309
 msgid "Select to make your button go fullwidth."
-msgstr ""
+msgstr "Auswählen um die Schaltfläche auf volle Breite auszudehnen"
 
 #: framework/functions/global/plugins/visual-composer.php:1318
 #: framework/functions/global/plugins/visual-composer.php:3286
@@ -5462,7 +5518,7 @@ msgstr "Marketing-Circle"
 #: framework/functions/global/plugins/visual-composer.php:3287
 #: framework/functions/global/plugins/visual-composer.php:3609
 msgid "Select to include a marketing circle around your button."
-msgstr ""
+msgstr "Auswählen, um einen Marketing-Circle um Ihre Schalftläche hinzuzufügen"
 
 #: framework/functions/global/plugins/visual-composer.php:1328
 msgid "Icon Only"
