@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: X\n"
 "POT-Creation-Date: 2015-06-01 19:48+0100\n"
-"PO-Revision-Date: 2015-06-03 08:39+0100\n"
+"PO-Revision-Date: 2015-06-03 15:45+0100\n"
 "Last-Translator: Linus Metzler <linus.metzler@gmail.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -7121,6 +7121,10 @@ msgid ""
 "using the form below. If that still doesn't provide the results you are "
 "looking for, you can always start over from the home page."
 msgstr ""
+"Die Seite, die Sie suchen, ist nicht mehr da, oder hat gar nie existiert. "
+"Sie können versuchen, danach zu suchen mit dem Formular unten. Falls das "
+"immer noch nicht die gewünschten Ergebnisse liefert, können Sie jederzeit "
+"zurück zur Startseite und von dort aus neu loslegen."
 
 #: framework/views/global/_content-none.php:14
 msgid "Nothing to Show Right Now"
@@ -7139,7 +7143,7 @@ msgstr "Zurück nach oben"
 
 #: framework/views/global/_header-widget-areas.php:39
 msgid "Toggle the Widgetbar"
-msgstr ""
+msgstr "Widgetleiste ein-/ausschalten"
 
 #: framework/views/global/_nav-primary.php:13
 msgid "Navigation"
