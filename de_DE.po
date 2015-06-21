@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: X\n"
-"POT-Creation-Date: 2015-06-01 19:48+0100\n"
-"PO-Revision-Date: 2015-06-03 18:50+0100\n"
+"POT-Creation-Date: 2015-06-21 13:36+0100\n"
+"PO-Revision-Date: 2015-06-21 13:36+0100\n"
 "Last-Translator: Linus Metzler <linus.metzler@gmail.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -4584,22 +4584,22 @@ msgstr "404 (Seite nicht gefunden)"
 msgid "Archives "
 msgstr "Archive"
 
-#: framework/functions/global/content.php:46
+#: framework/functions/global/content.php:44
 msgid "Pages:"
 msgstr "Seiten:"
 
+#: framework/functions/global/content.php:76
 #: framework/functions/global/content.php:78
-#: framework/functions/global/content.php:80
-#: framework/functions/global/content.php:99
+#: framework/functions/global/content.php:97
 #: framework/functions/global/plugins/buddypress.php:44
 msgid "Read More"
 msgstr "Weiterlesen"
 
-#: framework/functions/global/content.php:134
+#: framework/functions/global/content.php:132
 msgid "Previous Post"
 msgstr "Vorheriger Beitrag"
 
-#: framework/functions/global/content.php:140
+#: framework/functions/global/content.php:138
 msgid "Next Post"
 msgstr "Nächster Beitrag"
 
